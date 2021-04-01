@@ -4,19 +4,37 @@ body
     max-width: 1340px;
     margin: 25px;
     font-family: 'Raleway';
-    font-size: 10px;
+    font-size: 0.9em;
     line-height: 100%;
 }
+
 /* Styles textuels*/
 h1
 {
-    font-size: 14px;
+    font-size: 1.1em;
 }
 
 h2
 {
-    font-size: 10px;
+    font-size: 0.9em;
     font-weight: normal;
+}
+
+h3
+{
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.fa-info /* à améliorer */
+{
+    color: #0065FC;
+    border: solid #F2F2F2 1px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 3px;
+    margin: 3px;
 }
 
 /* Responsive */
@@ -26,12 +44,15 @@ nav a
 {
    color: #0065FC; 
    text-decoration: none;
+   padding-top: 20%;
 }
 
 nav a:hover
 {
-   color: #0065FC; 
-   text-decoration: underline solid #0065FC;
+   color: #0065FC;
+   border-top: solid #0065FC 3px;
+   text-decoration: none;
+   font-weight: bold;
 }
 
 nav a:active
