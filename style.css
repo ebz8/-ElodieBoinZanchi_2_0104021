@@ -26,13 +26,6 @@ h3
     font-weight: bold;
 }
 
-.infostyle
-{
-    font-size: 0.7em;
-}
-
-
-
 /* Responsive */
 
 /* Navigation */
@@ -83,7 +76,7 @@ nav li
     list-style-type: none;
 }
 
-#inscription
+#inscription /* S'inscrire */
 {
     text-decoration: none;
     font-weight: bold;
@@ -130,7 +123,6 @@ nav li
 {
     height: 22px;
     width: 125px;
-
 }
 
 .formulairebouton
@@ -147,6 +139,14 @@ nav li
 }
 
 /* Filtres */
+#filtres
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 24px;
+}
+
 .fa-money-bill-wave
 {
     color:#0065FC;
@@ -167,6 +167,41 @@ nav li
     color:#0065FC;
 }
 
-/* Pieds de page */
 
+/* infos - résultats */
+
+.fa-info
+{
+  color: #0065FC;
+  padding-right: 7px; 
+}
+
+.infostyle
+{
+    font-size: 0.7em;
+}
+
+/* Pieds de page */
+#barrefooter
+{
+    background-color: #f2f2f2;
+    display: flex;
+    padding: 50px 20px;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 0.7em;
+}
+
+footer ul
+{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+ 
 
