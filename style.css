@@ -7,9 +7,13 @@ body
 
 /* Responsive */
 
-/* En-tête */
-
 /* Navigation */
+
+nav li
+{
+    list-style-type: none;
+}
+/* En-tête */
 
 /* Corps de la page */
 
