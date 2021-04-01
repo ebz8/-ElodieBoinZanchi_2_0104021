@@ -87,13 +87,20 @@ nav li
     list-style-type: none;
 }
 
+#inscription
+{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+    border: none;
+}
+
 /* En-tête */
 #barremenu
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: coral;
 }
 
 #logo
@@ -102,19 +109,50 @@ nav li
     height: 30px;
 }
 
-#inscription
-{
-    text-decoration: none;
-    font-weight: bold;
-    margin-left: 10px;
-}
-
-#recherche
+/* Formulaire de recherche */
+#formulairerecherche
 {
     margin-top: 3%;
 }
 
-/* Corps de la page */
+.formulaireville
+{
+    height: 17px;
+
+}
+
+.formulairebouton
+{
+    font-family: 'Raleway';
+    font-size: 0.7em;
+    background-color: #0065FC;
+    color: white;
+    height: 25px;
+    border: none;
+    border-radius: 0px 7px 7px 0px;
+    padding: 0px 10px;
+}
+
+/* Filtres */
+.fa-money-bill-wave
+{
+    color:#0065FC;
+}
+
+.fa-child
+{
+    color:#0065FC;
+}
+
+.fa-heart
+{
+    color:#0065FC;
+}
+
+.fa-dog
+{
+    color:#0065FC;
+}
 
 /* Pieds de page */
 
