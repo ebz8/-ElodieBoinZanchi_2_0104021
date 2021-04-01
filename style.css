@@ -5,8 +5,19 @@ body
     margin: 25px;
     font-family: 'Raleway';
     font-size: 10px;
+    line-height: 100%;
 }
 /* Styles textuels*/
+h1
+{
+    font-size: 14px;
+}
+
+h2
+{
+    font-size: 10px;
+    font-weight: normal;
+}
 
 /* Responsive */
 
@@ -58,8 +69,13 @@ nav li
 {
     max-width: 100%;
     height: 30px;
-    margin: 1%;
 }
+
+#recherche
+{
+    margin-top: 3%;
+}
+
 /* Corps de la page */
 
 /* Pieds de page */
