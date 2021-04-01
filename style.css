@@ -4,7 +4,7 @@ body
     max-width: 1440px;
     margin: 0 auto;
     font-family: 'Raleway';
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 /* Styles textuels*/
 
@@ -17,7 +17,12 @@ nav li
     list-style-type: none;
 }
 /* En-tête */
-
+#logo
+{
+    max-width: 100%;
+    height: 30px;
+    margin: 1%;
+}
 /* Corps de la page */
 
 /* Pieds de page */
