@@ -270,7 +270,7 @@ nav li
     object-fit: scale-down;
 }
 
-/* Les plus populaires */
+/* Section Populaires */
 
 #pop_conteneur
 {
@@ -278,6 +278,9 @@ nav li
     width: 25%;
     padding: 1em 2em 1em 2em;
 }
+/* Les plus populaires */
+
+
 
 #populaires
 {
@@ -306,6 +309,13 @@ nav li
 #activites_conteneur
 {
     padding: 1em 2em 1em 2em;   
+}
+
+.activites_img
+{
+    height: 80px;
+    width: auto;
+    object-fit: scale-down;
 }
 
 /* Pieds de page */
