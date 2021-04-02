@@ -144,7 +144,7 @@ nav li
 }
 
 /* Filtres */
-#filtres
+#FILTRES
 {
     display: flex;
     justify-content: flex-start;
@@ -153,29 +153,31 @@ nav li
     height: 24px;
 }
 
-button
+.filtrebouton
+{
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 25px;
+}
+
+.style_filtrebouton
 {
     border: 0;
     background-color: white;
-    height: 25px;
-}
-
-.filtrebouton
-{
-    border: solid #F2F2F2 1px;
+    border: solid 1px #F2F2F2;
+    margin: 0 0 0 15px;
+    padding: 0px 10px 0 0px;
     border-radius: 50px;
-    padding: 0px 10px 0px 0px;
-    margin: 0 15px;
-    height: 25px;
+    height: 26px;
 }
 
-.filtrebouton :hover
+.style_filtrebouton:hover
 {
-    background-color: #DEEBFF;
+    background-color: #F2F2F2;
+    border: solid 1px #FFFFFF;
     transition-duration: 0.3s;
-    border-radius: 50px;
-    padding: 0px 10px 0px 0px;
-    margin: 0 15px;
+
 }
 
 .filtreicones /* à améliorer */
