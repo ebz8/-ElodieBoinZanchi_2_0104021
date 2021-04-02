@@ -237,15 +237,16 @@ nav li
 /* Section Hébergements */
 #HEBERGEMENTS
 {
-    display: flex;
-    justify-content: space-between;
+     display: grid;
+     grid-template-columns: 68% 30%;
+     gap: 2%;
+
 }
 
 /* Hébergements à Marseille */
 #heb_conteneur
 {
     background-color: #F2F2F2;
-    width: 70%;
     padding: 1em 2em 1em 2em;
 }
 
@@ -271,20 +272,15 @@ nav li
 }
 
 /* Section Populaires */
-
 #pop_conteneur
 {
-    background-color: bisque;
-    width: 25%;
+    background-color: #F2F2F2;
     padding: 1em 2em 1em 2em;
 }
 /* Les plus populaires */
-
-
-
 #populaires
 {
-
+    background-color: rgb(208, 253, 211);
 }
 
 .pop_fiche
@@ -303,12 +299,16 @@ nav li
 /* Activités à Marseille */
 #ACTIVITES
 {
+    padding: 1em 2em 1em 2em;   
 
 }
 
 #activites_conteneur
 {
-    padding: 1em 2em 1em 2em;   
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 5% 25% 25%;
+    border: 1px;
 }
 
 .activites_img
@@ -319,15 +319,17 @@ nav li
 }
 
 /* Pieds de page */
-#footer_conteneur
+footer
 {
     background-color: #f2f2f2;
-    display: flex;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
 .footer
 {
     padding: 1em 10em 2em 2em;
+    
 }
 
 footer a
