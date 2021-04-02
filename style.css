@@ -254,7 +254,7 @@ nav li
 {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    background-color: #0065FC; 
+    background-color: #c2d8fa; 
 }
 
 .heb_fiche
@@ -262,6 +262,8 @@ nav li
     display: flex;
     width: 20vw;
     flex-direction: column;
+    background-color: white;
+    border: solid black 1px;
 }
 
 .heb_img
@@ -285,7 +287,7 @@ nav li
 
 .pop_fiche
 {
-
+    border: solid black 1px;
 }
 
 .pop_img
@@ -311,11 +313,17 @@ nav li
     border: 1px;
 }
 
+.act_fiche
+{
+    border: solid black 1px;
+}
+
 .activites_img
 {
     height: 80px;
     width: auto;
     object-fit: scale-down;
+
 }
 
 /* Pieds de page */
