@@ -9,6 +9,15 @@ body
     line-height: 100%;
 }
 
+button, input
+{
+    font-family: 'Raleway';
+    font-size: 0.8em;
+    border: solid #F2F2F2 1px;
+    
+    -webkit-appearance: none;
+}
+
 main
 {
     margin: 20px 0px;
@@ -105,42 +114,47 @@ nav li
 }
 
 /* Formulaire de recherche */
-#formulairerecherche
+
+#RECHERCHE
 {
-    height: 27px;
-    width: 250px;
-    border: solid #f2f2f2 1px;
-    border-radius: 7px;
+
+    display: flex;
+    align-items: center;
+    height: 35px;
     margin-top: 3%;
-
-
+    font-weight: bold;
 }
+
 .fa-map-marker-alt
 {
-    height: 27px;
+    height: 35px;
+    width: 30px;
     text-align: center;
     background-color: #f2f2f2;
     border: none;
-    border-radius: 7px 0px 0px 7px;
+    border-radius: 30% 0 0 30%;
 }
 
-.formulaireville
+.form_ville
 {
-    height: 22px;
-    width: 125px;
+    align-self: stretch;
+    height: 33px;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: chartreuse;
 }
 
-.formulairebouton
+.form_bouton
 {
-    font-family: 'Raleway';
-    font-size: 0.7em;
     background-color: #0065FC;
     color: white;
-    height: 24px;
-    width: 75px;
+    height: 35px;
+    width: 80px;
     border: none;
     border-radius: 0px 7px 7px 0px;
-    padding: 0px 10px;
+    text-align: center;
 }
 
 /* Filtres */
