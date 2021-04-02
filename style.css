@@ -23,6 +23,7 @@ a
 h1
 {
     font-size: 1.1em;
+    font-weight: bold;
 }
 
 h2
@@ -106,7 +107,7 @@ nav li
 /* Formulaire de recherche */
 #formulairerecherche
 {
-    height: 22px;
+    height: 27px;
     width: 250px;
     border: solid #f2f2f2 1px;
     border-radius: 7px;
@@ -116,12 +117,11 @@ nav li
 }
 .fa-map-marker-alt
 {
+    height: 27px;
+    text-align: center;
     background-color: #f2f2f2;
-    height: 25px;
-    width: 10px;
     border: none;
     border-radius: 7px 0px 0px 7px;
-    padding: 0px 10px;  
 }
 
 .formulaireville
@@ -153,14 +153,26 @@ nav li
     height: 24px;
 }
 
+button
+{
+    border: 0;
+    background-color: white;
+    height: 25px;
+}
+
 .filtrebouton
 {
-    background-color: white;
     border: solid #F2F2F2 1px;
     border-radius: 50px;
-    padding: 0;
+    padding: 0px 10px 0px 0px;
     margin: 0 15px;
-    height: 30px;
+    height: 25px;
+}
+
+.filtrebouton :hover
+{
+    background-color: #DEEBFF;
+    transition-duration: 0.3s;
 }
 
 .filtreicones /* à améliorer */
@@ -169,7 +181,7 @@ nav li
     text-align: center;
     font-size: small;
     width: 15px;
-    padding: 7px 7px;
+    padding: 7px 9px;
     background-color: #DEEBFF;
     border-radius: 50%;
 }
@@ -179,15 +191,17 @@ nav li
 
 .fa-info
 {
-  color: #0065FC;
-  padding: 4px 7px;
-  margin-right: 8px;
-  border: solid #F2F2F2 0.1px;
-  border-radius: 50%;
+    color: #0065FC;
+    padding: 4px 7px;
+    margin-right: 8px;
+    border: solid #F2F2F2 0.1px;
+    border-radius: 50%;
 }
 
 .infostyle
 {
+    display: block;
+    margin: 30px 0px;
     font-size: 0.7em;
 }
 
