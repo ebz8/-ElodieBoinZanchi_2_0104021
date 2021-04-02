@@ -223,6 +223,46 @@ nav li
     font-size: 0.7em;
 }
 
+/* Section Hébergements */
+#HEBERGEMENTS
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#heb_resultats
+{
+    background-color: #F2F2F2;
+
+}
+
+#heb_apercu
+{
+    display: flex;
+    background-color: #0065FC; 
+}
+
+.heb_fiche
+{
+
+}
+
+.heb_img
+{
+    height: 100px;
+    object-fit: scale-down;
+}
+
+#populaires
+{
+    background-color: bisque;
+}
+
+
+
+
+
+
 /* Pieds de page */
 #barrefooter
 {
