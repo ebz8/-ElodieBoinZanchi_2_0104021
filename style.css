@@ -245,6 +245,7 @@ nav li
 #heb_conteneur
 {
     background-color: #F2F2F2;
+    width: 70%;
 
 }
 
@@ -275,6 +276,7 @@ nav li
 #pop_conteneur
 {
     background-color: bisque;
+    width: 25%;
 }
 
 #populaires
@@ -306,9 +308,21 @@ nav li
     display: flex;
 }
 
+.footer
+{
+    padding: 1em 4em 2em 2em;
+}
+
 footer a
 {
     text-decoration: none;
+    color: black;
+    font-size: 0.7em;
+}
+
+footer a:hover
+{
+    text-decoration: underline;
     color: black;
     font-size: 0.7em;
 }
