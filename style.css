@@ -9,6 +9,11 @@ body
     line-height: 100%;
 }
 
+a
+{
+    color: black;
+}
+
 /* Styles textuels*/
 h1
 {
@@ -38,16 +43,10 @@ nav
 
 nav a
 {
-   color: #0065FC; 
+    color: black; 
    text-decoration: none;
    font-weight: normal;
    padding-top: 10px;
-}
-
-nav a:visited
-{
-   color: #0065FC; 
-   text-decoration: none;
 }
 
 nav ul
@@ -67,7 +66,7 @@ nav a:hover
 
 nav a:active
 {
-   color: #0065FC; 
+   color: #0065FC;
    text-decoration: none;
 }
 
@@ -78,6 +77,7 @@ nav li
 
 #inscription /* S'inscrire */
 {
+    color: #0065FC;
     text-decoration: none;
     font-weight: bold;
     margin-left: 10px;
