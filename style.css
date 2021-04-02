@@ -227,7 +227,7 @@ nav li
     border-radius: 50%;
 }
 
-.infostyle
+.INFO
 {
     display: block;
     margin: 30px 0px;
@@ -251,9 +251,8 @@ nav li
 
 #heb_apercu
 {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
     background-color: #0065FC; 
 }
 
