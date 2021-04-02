@@ -143,7 +143,6 @@ nav li
     margin: 0;
     padding: 0;
     color: black;
-    background-color: chartreuse;
 }
 
 .form_bouton
@@ -164,7 +163,8 @@ nav li
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
-    height: 24px;
+    height: 30px;
+    
 }
 
 .filtrebouton
@@ -172,7 +172,7 @@ nav li
     border: none;
     margin: 0;
     padding: 0;
-    height: 25px;
+
 }
 
 .style_filtrebouton
@@ -181,16 +181,17 @@ nav li
     background-color: white;
     border: solid 1px #F2F2F2;
     margin: 0 0 0 15px;
-    padding: 0px 10px 0 0px;
+    padding: 3px 10px 3px 0;
     border-radius: 50px;
-    height: 26px;
+    height: 30px;
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
 .style_filtrebouton:hover
 {
     background-color: #F2F2F2;
-    border: solid 1px #FFFFFF;
-    transition-duration: 0.3s;
+    box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.1);
 
 }
 
