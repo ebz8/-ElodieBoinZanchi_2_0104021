@@ -152,33 +152,25 @@ nav li
     height: 24px;
 }
 
-.fa-money-bill-wave
+.styleicones /* à améliorer */
 {
     color:#0065FC;
+    padding: 9px 8px;
+    margin-left: 15px;
+    margin-right: 5px;
+    background-color: #DEEBFF;
+    border-radius: 50%;
 }
-
-.fa-child
-{
-    color:#0065FC;
-}
-
-.fa-heart
-{
-    color:#0065FC;
-}
-
-.fa-dog
-{
-    color:#0065FC;
-}
-
 
 /* infos - résultats */
 
 .fa-info
 {
   color: #0065FC;
-  padding-right: 7px; 
+  padding: 4px 7px;
+  margin-right: 8px;
+  border: solid #F2F2F2 0.1px;
+  border-radius: 50%;
 }
 
 .infostyle
