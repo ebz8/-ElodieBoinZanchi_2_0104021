@@ -230,6 +230,7 @@ nav li
     justify-content: space-between;
 }
 
+/* Hébergements à Marseille */
 #heb_conteneur
 {
     background-color: #F2F2F2;
@@ -254,9 +255,28 @@ nav li
     object-fit: scale-down;
 }
 
+/* Les plus populaires */
+
 #pop_conteneur
 {
     background-color: bisque;
+}
+
+#populaires
+{
+
+}
+
+.pop_fiche
+{
+
+}
+
+.pop_img
+{
+    height: 80px;
+    width: auto;
+    object-fit: cover;
 }
 
 
@@ -265,7 +285,7 @@ nav li
 
 
 /* Pieds de page */
-#barrefooter
+#footer_conteneur
 {
     background-color: #f2f2f2;
     display: flex;
