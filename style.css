@@ -230,7 +230,7 @@ nav li
     justify-content: space-between;
 }
 
-#heb_resultats
+#heb_conteneur
 {
     background-color: #F2F2F2;
 
@@ -254,7 +254,7 @@ nav li
     object-fit: scale-down;
 }
 
-#populaires
+#pop_conteneur
 {
     background-color: bisque;
 }
