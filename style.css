@@ -173,6 +173,9 @@ button
 {
     background-color: #DEEBFF;
     transition-duration: 0.3s;
+    border-radius: 50px;
+    padding: 0px 10px 0px 0px;
+    margin: 0 15px;
 }
 
 .filtreicones /* à améliorer */
