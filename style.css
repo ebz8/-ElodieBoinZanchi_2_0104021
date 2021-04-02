@@ -53,7 +53,7 @@ h4
     font-weight: bold;
 }
 
-.prix
+.meilleursprix
 {
     font-weight: bold;
 }
@@ -72,6 +72,7 @@ h4
 {
     max-width: 100%;
     height: 30px;
+    padding: 1em 2em 1em 2em;   
 }
 
 /* Navigation */
@@ -246,7 +247,7 @@ nav li
 {
     background-color: #F2F2F2;
     width: 70%;
-
+    padding: 1em 2em 1em 2em;
 }
 
 #heb_apercu
@@ -277,6 +278,7 @@ nav li
 {
     background-color: bisque;
     width: 25%;
+    padding: 1em 2em 1em 2em;
 }
 
 #populaires
@@ -297,9 +299,16 @@ nav li
 }
 
 
+/* Activités à Marseille */
+#ACTIVITES
+{
 
+}
 
-
+#activites_conteneur
+{
+    padding: 1em 2em 1em 2em;   
+}
 
 /* Pieds de page */
 #footer_conteneur
@@ -310,7 +319,7 @@ nav li
 
 .footer
 {
-    padding: 1em 4em 2em 2em;
+    padding: 1em 10em 2em 2em;
 }
 
 footer a
