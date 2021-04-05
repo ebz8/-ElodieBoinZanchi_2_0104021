@@ -282,6 +282,8 @@ nav li
 /* Les plus populaires */
 #populaires
 {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(208, 253, 211);
 }
 
