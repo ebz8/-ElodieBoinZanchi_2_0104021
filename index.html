@@ -14,7 +14,7 @@
 
 
         <header> 
-            <div id="conteneur_menu">
+            <div id="menu">
                 <img id="logo" src="img/Reservia.svg" alt="logo" title="Reservia" />
                 <nav>
                 <ul>
@@ -82,23 +82,23 @@
 
         </div>
         
+        <!--Résultats hébergements-->
+        <div id="HEBERGEMENTS">
+
         <!--Infos-->
         <div class="INFO">
             <i class="fas fa-info"></i>
             Plus de 500 logements sont disponibles dans cette ville
         </div>
-        
-        <!--Section hébergements-->
-        <div id="HEBERGEMENTS">
-            
+
             <!--Apercu hébergements-->
-            <div id="heb_conteneur">   
+            <div id="heb_apercu">   
                 <h2>Hébergements à Marseille</h2>
 
-                <article id="heb_apercu">
-                    <div class="heb_fiche">
+                <article id="apercu_fiche_conteneur">
+
                         <a href="aubergelacannebiere.html">
-                            <figure>
+                            <figure class="heb_fiche">
                                 <img class="heb_img" src="img/hebergements/small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo" title="Auberge la Cannebière" />
                                 <figcaption>
                                     <h4>Auberge la Cannebière</h4>
@@ -107,10 +107,8 @@
                                 </figcaption>
                             </figure>
                         </a>
-                    </div>
-                    <div class="heb_fiche">
                         <a href="hotelduport.html">
-                            <figure>
+                            <figure class="heb_fiche">
                                 <img class="heb_img" src="img/hebergements/small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo" title="Hôtel du port" />
                                 <figcaption>
                                     <h4>Hôtel du port</h4>
@@ -119,10 +117,8 @@
                                 </figcaption>
                             </figure>
                         </a>
-                    </div>
-                    <div class="heb_fiche">
                         <a href="hotellesmouettes.html">
-                            <figure>
+                            <figure class="heb_fiche">
                             <img class="heb_img" src="img/hebergements/small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo" title="Hôtel Les mouettes" />
                             <figcaption>
                                 <h4>Hôtel Les mouettes</h4>
@@ -131,10 +127,8 @@
                             </figcaption>
                             </figure>
                         </a>
-                    </div>
-                    <div class="heb_fiche">
                         <a href="hoteldelamer.html">
-                            <figure>
+                            <figure class="heb_fiche">
                                 <img class="heb_img" src="img/hebergements/small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo" title="Hôtel de la mer" />
                                 <figcaption>
                                     <h4>Hôtel de la mer</h4>
@@ -143,11 +137,9 @@
                                 </figcaption>
                             </figure>
                         </a>
-                    </div>
 
-                    <div class="heb_fiche">
                         <a href="aubergelepanier">
-                            <figure>
+                            <figure class="heb_fiche">
                                 <img class="heb_img" src="img/hebergements/small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo" title="Auberge Le Panier" />
                                 <figcaption>
                                     <h4>Auberge Le Panier</h4>
@@ -156,10 +148,8 @@
                                 </figcaption>
                             </figure>
                         </a>
-                    </div>
-                    <div class="heb_fiche">
                         <a href= "hotelchezamina.html">
-                            <figure>
+                            <figure class="heb_fiche">
                                 <img class="heb_img" src="img/hebergements/small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo" title="Hôtel chez Amina" />
                                 <figcaption>
                                     <h4>Hôtel chez Amina</h4>
@@ -168,19 +158,17 @@
                                 </figcaption>
                             </figure>
                         </a>
-                    </div>
 
                 </article>   
             </div>  
 
             <!--Les plus populaires-->
-            <aside id="pop_conteneur">
+            <aside id="populaires">
                 <h2>Les plus populaires</h2>
 
-                <div id="populaires">
-                    <div class="pop_fiche">
+                <div id="pop_fiche_conteneur">
                         <a href="hotellesoleildumatin">
-                            <figure>
+                            <figure class="pop_fiche">
                                 <img class="heb_img" src="img/hebergements/small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo" title="Hôtel Le soleil du matin" />
                                 <figcaption>
                                     <h4>Hôtel Le soleil du matin</h4>
@@ -189,10 +177,8 @@
                                 </figcaption>
                             </figure>
                         </a>
-                    </div>
-                    <div class="pop_fiche">
                         <a href="aucoeurdeleau">
-                            <figure>
+                            <figure class="pop_fiche">
                                 <img class="heb_img" src="img/hebergements/small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo" title="Au coeur de l'eau Chambres d'hôtes" />
                                 <figcaption>
                                     <h4>Au c&oelig;ur de l'eau Chambres d'hôtes</h4>
@@ -201,10 +187,8 @@
                                 </figcaption>
                             </figure>
                         </a>
-                    </div>
-                    <div class="pop_fiche">
                         <a href="hoteltoutbleuetblanc">
-                            <figure>
+                            <figure class="pop_fiche">
                                 <img class="heb_img" src="img/hebergements/small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo" title="Hôtel Tout bleu et Blanc" />
                                 <figcaption>
                                     <h4>Hôtel Tout bleu et Blanc</h4>
@@ -213,7 +197,6 @@
                                 </figcaption>
                             </figure>
                         </a>
-                    </div>
                 </div>
 
             </aside> 
@@ -223,7 +206,7 @@
         <div id="ACTIVITES">
                 <h2>Activités à Marseille</h2>
 
-            <article id="activites_conteneur">
+            <article id="activites_fiche_conteneur">
 
                 <a href="vieuxport.html">
                     <figure class="act_fiche">
