@@ -143,8 +143,8 @@ nav li
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    height: 40px;
-    width: 345px;
+    height: 50px;
+    width: 420px;
     margin-top: 3%;
     border: solid #f2f2f2 1px;
     border-radius: 15px;
@@ -152,11 +152,11 @@ nav li
 
 .fa-map-marker-alt
 {
-    width: 40px;
+    width: 50px;
     text-align: center;
     background-color: #f2f2f2;
-    border-radius: 14px 0 0 14px;
-    padding-top: 10px;
+    border-radius: 12.5px 0 0 12.5px;
+    padding-top: 12.5px;
 }
 
 .form_ville
@@ -172,7 +172,7 @@ nav li
 
 .form_bouton
 {
-    height: 40px;
+    height: 50px;
     width: 100px;
     font-weight: bold;
     background-color: #0065FC;
@@ -292,6 +292,7 @@ figcaption
     flex: 0 0 60%;;
     background-color: #F2F2F2;
     padding: 1em 2em 1em 2em;
+    border-radius: 20px;
 }
 
 #apercu_fiche_conteneur
@@ -301,6 +302,7 @@ figcaption
     gap: 2%;
     justify-content: center;
     align-items: center;
+    
 }
 
 .heb_fiche
@@ -308,7 +310,7 @@ figcaption
     margin: 1%;
     background-color: white;
     border: solid white 4px;
-    border-radius: 10px;
+    border-radius: 20px;
     line-height: 0.5em;
 
 }
