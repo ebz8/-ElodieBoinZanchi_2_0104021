@@ -71,7 +71,7 @@ h4
 #logo
 {
     max-width: 100%;
-    height: 50px;
+    height: 40px;
 }
 
 /* Navigation */
@@ -129,42 +129,42 @@ nav li
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    height: 34px;
-    width: 260px;
+    height: 40px;
+    width: 340px;
     margin-top: 3%;
-    font-weight: bold;
     border: solid #f2f2f2 1px;
     border-radius: 15px;
 }
 
 .fa-map-marker-alt
 {
-    align-self: stretch;
-    width: 30px;
+    width: 40px;
     text-align: center;
     background-color: #f2f2f2;
     border-radius: 14px 0 0 14px;
+    padding-top: 10px;
 }
 
 .form_ville
 {
-    height: 33px;
-    width: 144px;
-    margin: 0;
-    padding: 0;
+    height: 38px;
+    width: 184px;
+    font-weight: bold;
     color: black;
     border: none;
+    margin: 0;
+    padding-left: 10px;
 }
 
 .form_bouton
 {
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
     background-color: #0065FC;
     color: white;
-    height: 35px;
-    width: 80px;
     border: none;
     border-radius: 0px 14px 14px 0px;
-    text-align: center;
 }
 
 /* Filtres */
@@ -183,7 +183,6 @@ nav li
     border: none;
     margin: 0;
     padding: 0;
-
 }
 
 .style_filtrebouton
@@ -259,6 +258,19 @@ figcaption
     padding: 5px;
 }
 
+/* Notes */
+.etoilepleine
+{
+    color:#0065FC;
+    font-size: 0.9em;    
+}
+
+.etoilevide
+{
+    color:#F2F2F2;
+    font-size: 0.9em;
+}
+
 /* Hébergements à Marseille */
 #heb_apercu
 {
@@ -281,7 +293,6 @@ figcaption
     background-color: white;
     border: solid white 4px;
     border-radius: 10px;
-    background-color: cyan;
 }
 
 .heb_img
