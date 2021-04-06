@@ -369,15 +369,10 @@ figcaption
     width: 200px;
 }
 
-.activites_fiche_conteneur :nth-child(1)
-{
-    flex: 1 0 100%;
-    background-color: yellowgreen;
-}
-
-.activites_fiche_conteneur :nth-child(2)
+.activites_fiche_conteneur :first-child
 {
     flex: 1 0 75%;
+    background-color: yellow;
 }
 
 .activites_img
@@ -410,7 +405,6 @@ footer a
 
 footer a:hover
 {
-    text-decoration: underline;
     color: black;
     font-size: 0.7em;
 }
