@@ -249,6 +249,11 @@ figure
     font-size: 0.8em;
 }
 
+figure:hover
+{
+    filter: brightness(80%);
+}
+
 figcaption
 {
     padding: 5px;
@@ -264,10 +269,10 @@ figcaption
 
 #apercu_fiche_conteneur
 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .heb_fiche
@@ -285,11 +290,6 @@ figcaption
     height: 8em;
     object-fit: contain;
 }
-
-.heb_img:hover
-{
-    filter: brightness(70%);
-}
     
 /* Section Populaires */
 #populaires
@@ -303,9 +303,22 @@ figcaption
 #pop_fiche_conteneur
 {
     display: flex;
+    flex: 0 0 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.pop_titre
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-chart-line
+{
+    font-size: 1.2em;
 }
 
 .pop_fiche
@@ -336,21 +349,35 @@ figcaption
 /* Activités à Marseille */
 #ACTIVITES
 {
-    padding: 1em 2em 1em 2em;   
-
+    padding: 1em 2em 1em 2em; 
 }
 
-#activites_fiche_conteneur
+.activites_fiche_conteneur
 {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 5% 25% 25%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: stretch;
+    height: 400px;
     border: 1px;
+    background-color: deeppink;
 }
 
 .act_fiche
 {
     border: solid black 1px;
+    background-color: cyan;
+    width: 200px;
+}
+
+.activites_fiche_conteneur :nth-child(1)
+{
+    flex: 1 0 100%;
+    background-color: yellowgreen;
+}
+
+.activites_fiche_conteneur :nth-child(2)
+{
+    flex: 1 0 75%;
 }
 
 .activites_img
