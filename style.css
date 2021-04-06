@@ -142,7 +142,7 @@ nav li
     justify-content: space-between;
     flex-wrap: nowrap;
     height: 40px;
-    width: 340px;
+    width: 345px;
     margin-top: 3%;
     border: solid #f2f2f2 1px;
     border-radius: 15px;
@@ -354,7 +354,6 @@ figcaption
     border: solid white 4px;
     border-radius: 10px;
     margin: 1%;
-    background-color: cyan;
 }
 
 .pop_img
