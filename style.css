@@ -6,7 +6,7 @@ body
     padding: 20px 20px;
     font-family: 'Raleway';
     font-size: 1em;
-    line-height: 100%;
+    line-height: 1em;
 }
 
 button, input
@@ -52,6 +52,7 @@ h3
 h4
 {
     font-weight: bold;
+    
 }
 
 p
@@ -63,6 +64,7 @@ p
 {
     font-weight: bold;
     font-size: 0.9em;
+    padding-top: 2%;
 }
 
 .meilleursprix
@@ -296,6 +298,7 @@ figcaption
 {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 2%;
     justify-content: center;
     align-items: center;
 }
@@ -306,6 +309,8 @@ figcaption
     background-color: white;
     border: solid white 4px;
     border-radius: 10px;
+    line-height: 0.5em;
+
 }
 
 .heb_img
