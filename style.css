@@ -288,6 +288,7 @@ nav li
 {
     padding: 5px;
 }
+
 /* Hébergements / Apercu des résultats */
 #heb_apercu
 {
@@ -313,13 +314,15 @@ nav li
     border: solid white 4px;
     border-radius: 20px;
     line-height: 0.5em;
+    box-shadow: 0 0 10px #ccc;
+
 }
 
 #heb_apercu img
 {
     width: 100%;
     height: 114px;
-    object-fit: cover;
+    border-radius: 20px;
 }
    
 /* Hébergements / Populaires */
@@ -361,53 +364,113 @@ nav li
     border: solid white 4px;
     border-radius: 10px;
     margin: 1%;
+    box-shadow: 0 0 10px #ccc;
+
 }
 
 #populaires img
 {
     height: 135px;
     width: 100%;
-    object-fit: cover;
+    border-radius: 10px;
 }
-
 
 /* Activités à Marseille */
 #ACTIVITES
 {
-    
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 1em 2em 1em 2em;
-    height: 500px;
+    margin-top: 25px;
 }
 
-.act_colonnes_conteneur
+#ACTIVITES h2
+{
+    margin-left: 2em;
+}
+
+/* Activités à Marseille */
+.activites_conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.activites_conteneur figure
+{
+    flex-flow: column-wrap;
+    box-shadow: 0 0 10px #ccc;
+    margin-left: 0;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.activites_conteneur img
+{
+    width: 300px;
+    height: 445px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.activites_conteneur figcaption
+{
+    padding: 5px;
+}
+
+.activites_conteneur figcaption h4
+{
+    padding-left: 15px;
+}
+
+
+/* Types de colonnes */
+.colonne
+{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0;
+}
+
+.colonnedouble
 {
     display: flex;
     justify-content: space-between;
-    height: 451px;
+    flex-flow: column wrap;
+    align-items: stretch;
 }
 
-.activites_img
+/* Dimension des images */
+
+.vieuxport img
 {
-    width: 300px;
-    height: 100%;
-    object-fit: cover;
+    max-height: 390px;
 }
 
-.colonne1
+.fortdepomegues img
 {
-    display: flex;
-    flex: 1 1 300px;
-    background-color: thistle;
+    max-height: 182px;
 }
 
-.colonne2
+.ilesdufrioul img
 {
-    display: flex;
-    flex: 1 1 300;
-    background-color: pink;
+    max-height: 110px;
+}
+
+.parcnationaldescalanques img
+{
+    max-height: 390px;
+}
+
+.notredamedelagarde img
+{
+    max-height: 141px;
+}
+
+.parclongchamp img
+{
+    max-height: 154px;
 }
 
 /* Pieds de page */
