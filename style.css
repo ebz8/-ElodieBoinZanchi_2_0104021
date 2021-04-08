@@ -404,6 +404,7 @@ nav li
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: stretch;
 }
 
 .activites_conteneur figure
@@ -439,15 +440,19 @@ nav li
     display: flex;
     flex-direction: column;
     justify-content: stretch;
-    align-items: stretch;
 }
 
+.colonnedouble
+{
+    display: flex;
+    flex-direction: column;
+}
 
 /* Dimension des images */
 
 .vieuxport img
 {
-    max-height: 390px;
+    height: 390px;
 }
 
 .fortdepomegues img
@@ -462,7 +467,7 @@ nav li
 
 .parcnationaldescalanques img
 {
-    max-height: 390px;
+    height: 390px;
 }
 
 .notredamedelagarde img
