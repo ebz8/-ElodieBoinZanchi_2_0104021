@@ -397,6 +397,11 @@ nav li
     margin-left: 2em;
 }
 
+#ACTIVITES figure:hover
+{
+    filter: brightness(80%);
+}
+
 /* Activités à Marseille */
 .activites_conteneur
 {
