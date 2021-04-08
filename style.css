@@ -386,9 +386,6 @@ nav li
 /* Activités à Marseille */
 #ACTIVITES
 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     margin-top: 60px;
 }
 
@@ -402,15 +399,11 @@ nav li
     filter: brightness(80%);
 }
 
-/* Activités à Marseille */
-.activites_conteneur
+.activites_conteneur /* bloc des fiches */
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: wheat;
-    height: 390px;
-    margin-bottom: 60px;
 }
 
 .activites_conteneur figure
@@ -459,13 +452,11 @@ nav li
 
 .fortdepomegues img
 {
-    flex: 2;
     max-height: 182px;
 }
 
 .ilesdufrioul img
 {
-    flex: 1;
     max-height: 110px;
 }
 
