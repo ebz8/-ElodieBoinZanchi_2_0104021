@@ -57,7 +57,6 @@ h3
 h4
 {
     font-weight: bold;
-    
 }
 
 p
@@ -96,7 +95,7 @@ p
 /* Navigation */
 nav
 {
-    display: inline-flex;
+    display: flex;
     align-items: center;
 }
 
@@ -104,7 +103,7 @@ nav a
 {
     color: black; 
     font-weight: normal;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 nav ul
@@ -150,9 +149,9 @@ nav li
     flex-wrap: nowrap;
     height: 50px;
     width: 420px;
-    margin-top: 3%;
     border: solid #f2f2f2 1px;
     border-radius: 15px;
+    margin: 15px 0px;
 }
 
 .fa-map-marker-alt
@@ -187,23 +186,18 @@ nav li
 }
 
 /* Barre Filtres */
-#FILTRES
+#FILTRE
 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     height: 46px;
+    width: 830px;
+    padding: 15px 0px;
 }
 
 .filtrebouton
-{
-    border: none;
-    margin: 0;
-    padding: 0;
-}
-
-.style_filtrebouton
 {
     height: 46px;
     border: 0;
@@ -211,12 +205,12 @@ nav li
     font-weight: bold;
     background-color: white;
     margin: 0 0 0 15px;
-    padding: 3px 10px 3px 0;
+    padding: 3px 20px 3px 0;
     border: solid 1px #F2F2F2;
     border-radius: 50px;
 }
 
-.style_filtrebouton:hover
+.filtrebouton:hover
 {
     background-color: #F2F2F2;
     box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.1);
@@ -234,12 +228,16 @@ nav li
     border-radius: 50px;
 }
 
+.filtrenom
+{
+    padding: 10px
+}
+
 /* infos résultats*/
 .INFO
 {
     height: 50px;
     flex: 1 0 100%;
-    margin: 30px 0px;
     font-size: 0.7em;
 }
 
@@ -365,7 +363,7 @@ nav li
     border-radius: 10px;
     margin: 1%;
     box-shadow: 0 0 10px #ccc;
-    line-height: 0.6em;
+    line-height: 0.9em;
 
 }
 
