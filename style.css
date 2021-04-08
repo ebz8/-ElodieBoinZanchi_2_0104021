@@ -20,7 +20,7 @@ button, input
 
 main
 {
-    margin: 20px 0px;
+    margin: 20px 0;
 }
 
 a
@@ -153,7 +153,7 @@ nav li
     width: 420px;
     border: solid #f2f2f2 1px;
     border-radius: 15px;
-    margin: 15px 0px;
+    margin: 15px 0;
 }
 
 .fa-map-marker-alt
@@ -184,7 +184,7 @@ nav li
     background-color: #0065FC;
     color: white;
     border: none;
-    border-radius: 0px 14px 14px 0px;
+    border-radius: 0 14px 14px 0;
 }
 
 /* Barre Filtres */
@@ -196,7 +196,7 @@ nav li
     align-items: center;
     height: 46px;
     width: 830px;
-    padding: 15px 0px;
+    padding: 15px 0;
 }
 
 .filtrebouton
@@ -215,7 +215,7 @@ nav li
 .filtrebouton:hover
 {
     background-color: #F2F2F2;
-    box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.1);
 }
 
 .filtreicones /* à améliorer */
@@ -322,7 +322,7 @@ nav li
 {
     width: 100%;
     height: 114px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
 }
    
 /* Hébergements / Populaires */
@@ -380,7 +380,7 @@ nav li
 {
     height: 133px;
     width: 127px;
-    border-radius: 10px 00px 0px 10px;
+    border-radius: 10px 0 0 10px;
 }
 
 /* Activités à Marseille */
@@ -406,7 +406,7 @@ nav li
 
 .activites_conteneur figure
 {
-    margin: 0px 20px 20px 0px;
+    margin: 0 20px 20px 0;
     padding: 0;
     border-radius: 15px;
     width: 300px;
@@ -416,7 +416,7 @@ nav li
 .activites_conteneur img
 {
     width: 100%;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0 0;
 }
 
 .activites_conteneur figcaption
