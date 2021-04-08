@@ -449,6 +449,9 @@ nav li
     align-items: stretch;
 }
 
+
+/* Dimension des images */
+
 .vieuxport img
 {
     max-height: 390px;
@@ -460,7 +463,7 @@ nav li
     max-height: 182px;
 }
 
-.ilesdufrioul
+.ilesdufrioul img
 {
     flex: 1;
     max-height: 110px;
@@ -471,25 +474,17 @@ nav li
     max-height: 390px;
 }
 
-.notredamedelagarde
+.notredamedelagarde img
 {
     flex: 1;
     max-height: 141px;
 }
 
-.parclongchamp
+.parclongchamp img
 {
     flex: 1;
     max-height: 154px;
 }
-
-
-
-/* Dimension des images */
-
-
-/* Dimension des images */
-
 
 /* Pieds de page */
 footer
