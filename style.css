@@ -365,7 +365,15 @@ nav li
     border-radius: 10px;
     margin: 1%;
     box-shadow: 0 0 10px #ccc;
+    line-height: 0.6em;
 
+}
+
+#populaires figcaption
+{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
 }
 
 #populaires img
