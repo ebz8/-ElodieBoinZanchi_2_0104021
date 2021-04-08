@@ -111,6 +111,7 @@ nav ul
     display: flex;
     justify-content: space-around;
     width: 200px;
+    padding-right: 60px;
 }
 
 nav a:hover
@@ -129,14 +130,15 @@ nav a:active
 nav li
 {
     list-style-type: none;
+    padding-right: 60px;
 }
 
 #inscription /* S'inscrire */
 {
     color: #0065FC;
     font-weight: bold;
-    margin-left: 10px;
     border: none;
+    padding-right: 5px;
 }
 
 /* Formulaire de recherche */
