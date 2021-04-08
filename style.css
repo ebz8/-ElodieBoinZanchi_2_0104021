@@ -386,12 +386,8 @@ nav li
 /* Activités à Marseille */
 #ACTIVITES
 {
+    margin-left: 10px;
     margin-top: 60px;
-}
-
-#ACTIVITES h2
-{
-    margin-left: 2em;
 }
 
 #ACTIVITES figure:hover
@@ -405,17 +401,16 @@ nav li
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
+    margin-top: 30px;
 }
 
 .activites_conteneur figure
 {
-    flex-flow: column-wrap;
-    box-shadow: 0 0 10px #ccc;
     margin: 0px 20px 20px 0px;
     padding: 0;
-    border-radius: 10px;
-    background-color: white;
+    border-radius: 15px;
     width: 300px;
+    box-shadow: 0 0 5px #ccc;
 }
 
 .activites_conteneur img
@@ -426,7 +421,7 @@ nav li
 
 .activites_conteneur figcaption
 {
-    padding: 5px;
+    padding: 2px;
 }
 
 .activites_conteneur figcaption h4
@@ -442,14 +437,7 @@ nav li
     justify-content: stretch;
 }
 
-.colonnedouble
-{
-    display: flex;
-    flex-direction: column;
-}
-
 /* Dimension des images */
-
 .vieuxport img
 {
     height: 390px;
