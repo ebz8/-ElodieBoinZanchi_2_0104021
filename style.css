@@ -322,7 +322,7 @@ nav li
 {
     width: 100%;
     height: 114px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
    
 /* Hébergements / Populaires */
@@ -370,9 +370,9 @@ nav li
 
 #populaires img
 {
-    height: 135px;
-    width: 100%;
-    border-radius: 10px;
+    height: 133px;
+    width: 127px;
+    border-radius: 10px 00px 0px 10px;
 }
 
 /* Activités à Marseille */
@@ -381,7 +381,7 @@ nav li
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 25px;
+    margin-top: 60px;
 }
 
 #ACTIVITES h2
@@ -411,7 +411,6 @@ nav li
     width: 300px;
     height: 445px;
     border-radius: 10px 10px 0px 0px;
-
 }
 
 .activites_conteneur figcaption
@@ -423,7 +422,6 @@ nav li
 {
     padding-left: 15px;
 }
-
 
 /* Types de colonnes */
 .colonne
