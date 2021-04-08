@@ -1,7 +1,7 @@
 /* Général */
 body
 {
-    max-width: 1100px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 20px 20px;
     font-family: 'Raleway';
@@ -28,6 +28,11 @@ a
     color: black;
     text-decoration: none;
     
+}
+
+img
+{
+    object-fit: cover;
 }
 
 /* Styles textuels*/
@@ -181,14 +186,14 @@ nav li
     border-radius: 0px 14px 14px 0px;
 }
 
-/* Filtres */
+/* Barre Filtres */
 #FILTRES
 {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: center;
-    height: 50px;
+    height: 46px;
 }
 
 .filtrebouton
@@ -200,7 +205,7 @@ nav li
 
 .style_filtrebouton
 {
-    height: 50px;
+    height: 46px;
     border: 0;
     font-size: 0.8em;
     font-weight: bold;
@@ -209,7 +214,6 @@ nav li
     padding: 3px 10px 3px 0;
     border: solid 1px #F2F2F2;
     border-radius: 50px;
-
 }
 
 .style_filtrebouton:hover
@@ -226,7 +230,7 @@ nav li
     background-color: #DEEBFF;
     text-align: center;
     font-size: small;
-    padding: 7px 9px;
+    padding: 14px 14px;
     border-radius: 50px;
 }
 
@@ -248,67 +252,12 @@ nav li
     border-radius: 50%;
 }
 
-/* Résultats Hébergements */
+/* Section résultats hébergements */
 #HEBERGEMENTS
 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-
-/* Hébergements à Marseille */
-#heb_apercu
-{
-    width: 880px; /* pas d'effet */
-    height: 625px;  /* pas d'effet */
-    flex: 0 0 60%;;
-    background-color: #F2F2F2;
-    padding: 1em 2em 1em 2em;
-    border-radius: 20px;
-}
-
-#apercu_fiche_conteneur
-{
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    gap: 2%;
-    justify-content: center;
-    align-items: center;
-}
-
-.heb_fiche
-{
-    margin: 1%;
-    background-color: white;
-    border: solid white 4px;
-    border-radius: 20px;
-    line-height: 0.5em;
-
-}
-
-.heb_img
-{
-    width: 100%;
-    height: 114px;
-    object-fit: cover;
-}
-
-/* Légendes des résultats */
-figure
-{
-    margin: 0;
-    font-size: 0.8em;
-}
-
-figure:hover
-{
-    filter: brightness(80%);
-}
-
-figcaption
-{
-    padding: 5px;
 }
 
 /* Notes */
@@ -322,8 +271,58 @@ figcaption
 {
     color:#F2F2F2;
     font-size: 0.9em;
-}    
-/* Section Populaires */
+}
+
+#HEBERGEMENTS figcaption
+{
+    margin: 0;
+    font-size: 0.8em;
+}
+
+#HEBERGEMENTS figure:hover
+{
+    filter: brightness(80%);
+}
+
+#HEBERGEMENTS figcaption
+{
+    padding: 5px;
+}
+/* Hébergements / Apercu des résultats */
+#heb_apercu
+{
+    flex: 0 0 60%;;
+    background-color: #F2F2F2;
+    padding: 1em 2em 1em 2em;
+    border-radius: 20px;
+}
+
+#apercu_fiche_conteneur /* bloc des fiches */
+{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+#heb_apercu figure
+{
+    margin: 1%;
+    background-color: white;
+    border: solid white 4px;
+    border-radius: 20px;
+    line-height: 0.5em;
+}
+
+#heb_apercu img
+{
+    width: 100%;
+    height: 114px;
+    object-fit: cover;
+}
+   
+/* Hébergements / Populaires */
 #populaires
 {
     flex: 0 0 25%;
@@ -332,8 +331,7 @@ figcaption
     padding: 1em 2em 1em 2em;
 }
 
-/* Les plus populaires */
-#pop_fiche_conteneur
+#pop_fiche_conteneur /* bloc des fiches */
 {
     display: flex;
     flex: 0 0 100%;
@@ -354,7 +352,7 @@ figcaption
     font-size: 1.2em;
 }
 
-.pop_fiche
+#populaires figure
 {
     display: flex;
     flex: 1 0 100%;
@@ -365,7 +363,7 @@ figcaption
     margin: 1%;
 }
 
-.pop_img
+#populaires img
 {
     height: 135px;
     width: 100%;
@@ -376,47 +374,41 @@ figcaption
 /* Activités à Marseille */
 #ACTIVITES
 {
-    padding: 1em 2em 1em 2em; 
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1em 2em 1em 2em;
+    height: 500px;
 }
 
-.activites_fiche_conteneur
+.act_colonnes_conteneur
 {
     display: flex;
     justify-content: space-between;
-    height: 448px;
-    width: 1340px;
-}
-
-.act_fiche
-{
-    border: solid black 1px;
-    background-color: cyan;
-    height: 448px;
-    width: 304px;
+    height: 451px;
 }
 
 .activites_img
 {
-    width: 100%;
+    width: 300px;
+    height: 100%;
     object-fit: cover;
 }
 
 .colonne1
 {
     display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    min-height: 100%;
-    background-color: cornsilk;
+    flex: 1 1 300px;
+    background-color: thistle;
 }
 
 .colonne2
 {
     display: flex;
-    flex: 0 1 auto;
-    flex-direction: column;
+    flex: 1 1 300;
+    background-color: pink;
 }
-
 
 /* Pieds de page */
 footer
