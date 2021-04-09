@@ -1,9 +1,10 @@
 /* Général */
 
+
 body
 {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: auto;
     padding: 20px 20px;
     font-family: 'Raleway';
     font-size: 1em;
@@ -68,8 +69,8 @@ p
 .afficherplus
 {
     font-weight: bold;
-    font-size: 0.9em;
-    padding-top: 2%;
+    font-size: 16px;
+    margin-top: 20px;
 }
 
 .meilleursprix
@@ -402,7 +403,7 @@ nav li
 .activites_conteneur /* bloc des fiches */
 {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: stretch;
     margin-top: 30px;
@@ -425,7 +426,10 @@ nav li
 
 .activites_conteneur figcaption
 {
+    display: flex;
+    align-items: center;
     padding: 2px;
+    height: 55px;
 }
 
 .activites_conteneur figcaption h4
@@ -434,11 +438,12 @@ nav li
 }
 
 /* Types de colonnes */
-.colonne
+.colonnedouble
 {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 /* Dimension des images */
@@ -449,12 +454,12 @@ nav li
 
 .fortdepomegues img
 {
-    max-height: 182px;
+    height: 182px;
 }
 
 .ilesdufrioul img
 {
-    max-height: 110px;
+    height: 110px;
 }
 
 .parcnationaldescalanques img
@@ -465,13 +470,13 @@ nav li
 .notredamedelagarde img
 {
     flex: 1;
-    max-height: 141px;
+    height: 141px;
 }
 
 .parclongchamp img
 {
     flex: 1;
-    max-height: 154px;
+    height: 154px;
 }
 
 /* Pieds de page */
