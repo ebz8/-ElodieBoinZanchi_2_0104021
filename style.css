@@ -152,9 +152,9 @@ nav li
     justify-content: stretch;
     align-items: stretch;
     height: 50px;
-    width: 420px;
+    width: 430px;
     margin: 15px 0;
-   background-color: #f2f2f2;
+    background-color: #f2f2f2;
     border: solid #f2f2f2 1px;
     border-radius: 15px;
 
@@ -184,7 +184,7 @@ nav li
 .form_bouton
 {
     height: 50px;
-    width: 119.5px;
+    width: 133px;
     font-weight: bold;
     background-color: #0065FC;
     color: white;
