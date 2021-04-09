@@ -8,7 +8,7 @@ body
     padding: 20px 20px;
     font-family: 'Raleway';
     font-size: 1em;
-    line-height: 1em;
+    line-height: 1.2em;
 }
 
 button, input
@@ -68,6 +68,7 @@ p
 
 .filtrenom
 {
+    font-size: 1.1em;
     font-weight: bold;
     padding: 10px;
 }
@@ -160,17 +161,19 @@ nav li
     height: 50px;
     width: 430px;
     margin: 15px 0;
+    font-size: 1.1em;
     background-color: #f2f2f2;
     border: solid #f2f2f2 1px;
     border-radius: 15px;
+
 
 }
 
 .fa-map-marker-alt
 {
     align-self: center;
-    text-align: center;
     width: 50px;
+    text-align: center;
     background-color: #f2f2f2;
     border-radius: 12.5px 0 0 12.5px;
 }
@@ -179,12 +182,12 @@ nav li
 {
     height: 48px;
     width: 235px;
-    color: #000;
-    font-weight: bold;
-    background-color: #fff;
-    border: none;
     margin: 0;
     padding-left: 10px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    border: none;
 }
 
 /* Implémentation style font
@@ -215,11 +218,9 @@ input[type="text"]::-moz-placeholder
 #FILTRE
 {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
     align-items: center;
-    height: 46px;
-    width: 830px;
     padding: 15px 0;
 }
 
@@ -378,13 +379,14 @@ input[type="text"]::-moz-placeholder
 {
     display: flex;
     flex: 1 0 100%;
-    border: solid black 1px;
+    height: 133px;
+    margin: 1%;
+    line-height: 0.9em;
     background-color: white;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
+    border: solid black 1px;
     border: solid white 4px;
     border-radius: 10px;
-    margin: 1%;
-    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
-    line-height: 0.9em;
 
 }
 
@@ -397,7 +399,7 @@ input[type="text"]::-moz-placeholder
 
 #populaires img
 {
-    height: 133px;
+    height: auto;
     width: 127px;
     border-radius: 10px 0 0 10px;
 }
