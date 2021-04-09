@@ -319,8 +319,7 @@ nav li
     border: solid white 4px;
     border-radius: 20px;
     line-height: 0.5em;
-    box-shadow: 0 0 10px #ccc;
-
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 #heb_apercu img
@@ -369,7 +368,7 @@ nav li
     border: solid white 4px;
     border-radius: 10px;
     margin: 1%;
-    box-shadow: 0 0 10px #ccc;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
     line-height: 0.9em;
 
 }
@@ -415,7 +414,7 @@ nav li
     padding: 0;
     border-radius: 15px;
     width: 300px;
-    box-shadow: 0 0 5px #ccc;
+    box-shadow: 1px 10px 10px #F2F2F2;
 }
 
 .activites_conteneur img
