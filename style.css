@@ -40,20 +40,20 @@ img
 /* Styles textuels*/
 h1
 {
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: bold;
 }
 
 h2
 {
-    font-size: 1.1em;
-    font-weight: bold;
+    font-size: 1em;
+    font-weight: normal;
 }
 
 h3
 {
-    font-size: 0.9em;
-    font-weight: normal;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 h4
@@ -66,16 +66,22 @@ p
     font-size: 1em;
 }
 
-.afficherplus
+.filtrenom
 {
     font-weight: bold;
-    font-size: 16px;
-    margin-top: 20px;
+    padding: 10px;
 }
 
 .meilleursprix
 {
     font-weight: bold;
+}
+
+.afficherplus
+{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
 }
 
 /* Responsive - media queries */
@@ -173,12 +179,25 @@ nav li
 {
     height: 48px;
     width: 235px;
-    color: black;
+    color: #000;
     font-weight: bold;
     background-color: #fff;
     border: none;
     margin: 0;
     padding-left: 10px;
+}
+
+/* Implémentation style font
+Chrome et Firefox */
+input[type="text"]::-webkit-input-placeholder
+{
+    color:black;
+    font-weight: bold;
+}
+
+input[type="text"]::-moz-placeholder
+{
+    opacity: 1;
 }
 
 .form_bouton
@@ -235,10 +254,6 @@ nav li
     border-radius: 50px;
 }
 
-.filtrenom
-{
-    padding: 10px
-}
 
 /* infos résultats*/
 .INFO
