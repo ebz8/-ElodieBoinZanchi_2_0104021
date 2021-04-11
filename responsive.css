@@ -29,17 +29,14 @@ header
 {
     flex-flow: row wrap;
     margin: 5% 2.5%;
+    height: 150px;
 }
     
 .menu
 {
     flex-flow: column wrap;
-}
-
-.menu :first-child /* nav */
-{
-    order: 2;
-    flex-grow: 1 1 100%;
+    width: 100%;
+    height: 80px;
 }
 
 .inscription
@@ -49,31 +46,43 @@ header
     right: 3%;
 }
 
+/* Navigation */
+
 nav
 {
     text-align: center;
     width: 100%;
     border-top: 0;
-    border-bottom: solid #f2f2f2 2px;
 }
+
 
 nav li
 {
+
     width: 50%;
+    height: 40px;
     background-color: hotpink;
+    border-bottom: solid #f2f2f2 3px;
+    border-top: none;
 }
 
 nav a:hover
 {
+   color: #0065FC;
    border-top: none;
+   border-bottom: solid #0065FC 3px;
+   text-decoration: none;
+   font-weight: bold;
+   padding-bottom: 20px;
 }
 
-nav :active
+
+nav li :active
 {
    color: #0065FC;
    text-decoration: none;
-   border-bottom: solid #0065FC 2px;
    font-weight: bold;
+   border-bottom: solid #0065FC 3px;
 }
 
 

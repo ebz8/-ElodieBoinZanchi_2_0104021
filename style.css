@@ -103,7 +103,6 @@ header
     justify-content: space-between;
     align-items: center;
     margin: 48px 3%;
-    
 }
 
 .menu
@@ -116,7 +115,6 @@ header
 
 .logo
 {
-    height: 100%;
     width: 100px;
 }
 
@@ -129,12 +127,10 @@ header
 }
 /* Navigation */
 
-
-
 nav ul
 {
     display: flex;
-    justify-content: flex-start;
+
 }
 
 nav li
