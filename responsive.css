@@ -17,14 +17,18 @@
 @media screen and (max-width: 768px)
 {
 
+/* General */
 body
 {
     margin: 0;
 }
 
+
+/* En-tête */
 header
 {
     flex-flow: row wrap;
+    margin: 5% 2.5%;
 }
     
 .menu
@@ -32,21 +36,49 @@ header
     flex-flow: column wrap;
 }
 
-.menu :first-child
+.menu :first-child /* nav */
 {
     order: 2;
     flex-grow: 1 1 100%;
 }
 
-nav
+.inscription
 {
-    display: flex;
-    justify-content: space-around;
-    align-items:stretch;
-    text-align: center;
-    width: 100vw;
+    position: absolute;
+    top: 50px;
+    right: 3%;
 }
 
+nav
+{
+    text-align: center;
+    width: 100%;
+    border-top: 0;
+    border-bottom: solid #f2f2f2 2px;
+}
+
+nav li
+{
+    width: 50%;
+    background-color: hotpink;
+}
+
+nav a:hover
+{
+   border-top: none;
+}
+
+nav :active
+{
+   color: #0065FC;
+   text-decoration: none;
+   border-bottom: solid #0065FC 2px;
+   font-weight: bold;
+}
+
+
+
+/* Pieds de page */
 footer
 {
     display: flex;
