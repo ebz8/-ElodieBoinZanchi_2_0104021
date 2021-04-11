@@ -9,7 +9,7 @@
 body
 {
     max-width: 1340px;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Raleway';
     font-size: 16px;
     line-height: 1.1em;
@@ -234,7 +234,7 @@ nav li
     padding: 3px 20px 3px 0;
     margin: 0 0 0 25px;
     background-color: white;
-    border: solid 2px #d3d3d3;
+    border: solid 2px #f2f2f2;
     border-radius: 50px;
 }
 
@@ -517,82 +517,4 @@ footer ul
     padding: 0;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
- /* Responsive - media queries */
-/*################################*/
-/*########## -TABLETTE- ##########*/
-/*##### -LARGE (Bootstrap)- #####*/
-/*################################*/
-@media screen and (max-width: 992px)
-{
-
-}
-
-
-/*################################*/
-/*########### -MOBILE- ###########*/
-/*##### -MEDIUM (Bootstrap)- #####*/
-/*################################*/
-
-
-
-@media screen and (max-width: 768px)
-{
-
-body
-{
-    margin: 0;
-}
-
-header
-{
-    flex-flow: row wrap;
-}
-    
-.menu
-{
-    flex-flow: column wrap;
-}
-
-.menu :first-child
-{
-    order: 2;
-    flex-grow: 1 1 100%;
-}
-
-nav
-{
-    display: flex;
-    justify-content: space-around;
-    align-items:stretch;
-    text-align: center;
-    width: 100vw;
-}
-
-footer
-{
-    display: flex;
-    flex-flow: column wrap;
-    line-height: 120%;
-    background-color: #f2f2f2;
-}
-
-.footer
-{
-    width: 100%;
-}
-
-}
-
 

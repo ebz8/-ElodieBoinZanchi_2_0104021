@@ -1,0 +1,65 @@
+
+ /*_______________________________________________*/
+/*__________________ -TABLETTE- __________________*/
+/*_____________ -LARGE (Bootstrap)- ______________*/
+/*________________________________________________*/
+@media screen and (max-width: 992px)
+{
+
+}
+
+
+/*________________________________________________*/
+/*___________________ -MOBILE- ___________________*/
+/*_____________ -MEDIUM (Bootstrap)- _____________*/
+/*________________________________________________*/
+
+@media screen and (max-width: 768px)
+{
+
+body
+{
+    margin: 0;
+}
+
+header
+{
+    flex-flow: row wrap;
+}
+    
+.menu
+{
+    flex-flow: column wrap;
+}
+
+.menu :first-child
+{
+    order: 2;
+    flex-grow: 1 1 100%;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items:stretch;
+    text-align: center;
+    width: 100vw;
+}
+
+footer
+{
+    display: flex;
+    flex-flow: column wrap;
+    line-height: 120%;
+    background-color: #f2f2f2;
+}
+
+.footer
+{
+    width: 100%;
+}
+
+}
+
+
