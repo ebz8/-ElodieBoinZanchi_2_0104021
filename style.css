@@ -240,16 +240,20 @@ nav li
     margin: 25px 5px;
 }
 
+#filtrebouton
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
 .filtrebouton
 {
-    height: 46px;
-    border: 0;
-    font-size: 0.8em;
-    font-weight: bold;
-    background-color: white;
-    margin: 0 0 0 15px;
+    height: 50px;
     padding: 3px 20px 3px 0;
-    border: solid 1px #F2F2F2;
+    margin: 0 0 0 25px;
+    background-color: white;
+    border: solid 2px #d3d3d3;
     border-radius: 50px;
 }
 
@@ -263,14 +267,13 @@ nav li
 {
     height: 100px;
     width: 100px;
+    padding: 15px 15px;
+    margin-left: -2px;
+    text-align: center;
     color:#0065FC;
     background-color: #DEEBFF;
-    text-align: center;
-    font-size: small;
-    padding: 14px 14px;
     border-radius: 50px;
 }
-
 
 /* infos résultats*/
 .INFO
