@@ -4,21 +4,15 @@
     box-sizing: border-box;
 }
 
-html /* gestion interlignes */
-{
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-}
-
 /* Général */
 
 body
 {
     max-width: 1340px;
-    margin: 0 3%;
+    margin: 0;
     font-family: 'Raleway';
     font-size: 16px;
-    line-height: 100%;
+    line-height: 1.1em;
 }
 
 button, input
@@ -39,7 +33,7 @@ input[type="text"]::-moz-placeholder /* Style formulaire avec Firefox */
 
 main
 {
-    margin: 20px 0;
+    margin: 48px 3%;
 }
 
 a
@@ -102,13 +96,14 @@ p
 }
 
 /* En-tête */
-#menu_conteneur
+header
 {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
     align-items: center;
-    margin: 48px 0px;    
+    margin: 48px 3%;
+    
 }
 
 .menu
@@ -140,8 +135,6 @@ nav a
     font-weight: normal;
     padding-top: 50px;
 }
-
-
 
 nav a:hover
 {
@@ -501,11 +494,14 @@ footer
     grid-template-columns: 33.33% 33.33% 33.33%;
     line-height: 120%;
     background-color: #f2f2f2;
+    margin: 0;
+    
 }
 
 .footer
 {
     padding: 1em 10em 2em 2em;
+
     
 }
 
@@ -534,20 +530,34 @@ footer ul
 
 
  /* Responsive - media queries */
-
-@media screen and (max-width: 992px) /* Tablette (Large Bootstrap) */
+/*################################*/
+/*########## -TABLETTE- ##########*/
+/*##### -LARGE (Bootstrap)- #####*/
+/*################################*/
+@media screen and (max-width: 992px)
 {
 
 }
 
-@media screen and (max-width: 768px) /* Mobile (Medium Bootstrap) */
-{
+
+/*################################*/
+/*########### -MOBILE- ###########*/
+/*##### -MEDIUM (Bootstrap)- #####*/
+/*################################*/
 
 
-.menu_conteneur
+
+@media screen and (max-width: 768px)
 {
-    flex-flow: column wrap;
-    justify-content: flex-end;
+
+body
+{
+    margin: 0;
+}
+
+header
+{
+    flex-flow: row wrap;
 }
     
 .menu
@@ -568,6 +578,19 @@ nav
     align-items:stretch;
     text-align: center;
     width: 100vw;
+}
+
+footer
+{
+    display: flex;
+    flex-flow: column wrap;
+    line-height: 120%;
+    background-color: #f2f2f2;
+}
+
+.footer
+{
+    width: 100%;
 }
 
 }
