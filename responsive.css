@@ -39,7 +39,7 @@ main
     margin: 0 5%;
 }
 
-.desktoponly
+.desktop_only
 {
     display: none;
 }
@@ -113,11 +113,13 @@ nav li :active
 #RECHERCHE
 {
     margin: 3% auto;
+    border: none;
 }
 
 .form_ville
 {
     flex: 1 1 100%;
+    border: solid #f2f2f2 1px;
 }
 
 .fa-search /*loupe*/
@@ -127,9 +129,10 @@ nav li :active
     align-self: center;
     width: 50px;
     height: 50px;
+    font-size: 1.5em;
     text-align: center;
     font-weight: bold;
-    color: black;
+    color: white;
     background-color: #0065FC;
     border: none;
     border-radius: 0 14px 14px 0;
@@ -165,11 +168,21 @@ nav li :active
 /* Hebergements à Marseille: */
 /* _______Populaires________ */
 
-#populaires
+
+/* _________________________ */
+/* __Activités à Marseille__ */
+/* _________________________ */
+
+.activites_conteneur figure
 {
-    flex: 0 0 100%;
-    border-radius: 0;
-    padding: 0;
+    width: 100%;
+}
+
+.vieuxport img, .fortdepomegues img, .ilesdufrioul img,
+.parcnationaldescalanques img, .notredamedelagarde img,
+.parclongchamp img
+{
+    height: 150px;
 }
 
 /* Pieds de page */

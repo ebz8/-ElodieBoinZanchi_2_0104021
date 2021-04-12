@@ -55,6 +55,11 @@ img
     object-fit: cover;
 }
 
+.mobile_only
+{
+    display: none;
+}
+
 /* _________________________ */
 /* _____Styles_textuels_____ */
 /* _________________________ */
@@ -191,27 +196,22 @@ nav a:active
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 49.5px;
     width: 430px;
     margin: 20px 0;
     font-size: 1.1em;
-    background-color: #f2f2f2;
-    border: solid #f2f2f2 1px;
     border-radius: 15px;
+    border: solid #f2f2f2 1px;
+
 }
 
 .fa-map-marker-alt
 {
-    align-self: center;
     width: 50px;
     text-align: center;
     background-color: #f2f2f2;
     border-radius: 12.5px 0 0 12.5px;
-}
-
-.fa-search /*loupe*/
-{
-    display: none;
+    padding: 17px 2px;
 }
 
 form
@@ -229,17 +229,18 @@ form
     color: #000;
     background-color: #fff;
     border: none;
+
 }
 
 .form_bouton
 {
     height: 50px;
-    width: 133px;
     font-weight: bold;
     background-color: #0065FC;
     color: white;
     border: none;
     border-radius: 0 14px 14px 0;
+    padding: 0 22px;
 }
 
 /* _________________________ */
