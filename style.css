@@ -397,6 +397,12 @@ form
     height: 114px;
     border-radius: 20px 20px 0 0;
 }
+
+#heb_apercu figcaption
+{
+    padding: 10px;
+}
+
  
 /* Hebergements à Marseille: */
 /* _______Populaires________ */
@@ -456,6 +462,7 @@ form
     display: flex;
     justify-content: space-between;
     flex-flow: column wrap;
+    padding: 10px;
 }
 
 /* _________________________ */
