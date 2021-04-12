@@ -209,6 +209,16 @@ nav a:active
     border-radius: 12.5px 0 0 12.5px;
 }
 
+.fa-search /*loupe*/
+{
+    display: none;
+}
+
+form
+{
+    display: flex;
+}
+
 .form_ville
 {
     height: 48px;
@@ -543,4 +553,6 @@ footer ul
     padding: 0;
 
 }
+
+
 

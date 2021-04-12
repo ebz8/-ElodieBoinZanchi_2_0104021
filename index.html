@@ -5,7 +5,7 @@
         <title>Reservia</title>
         <meta data-year=2021 name="Reservia" content="Reservia. Trouvez votre hébergement pour des vacances de rêve. En plein centre-ville ou en pleine nature." />
         <link rel="stylesheet" href="style.css" />
-        <link rel="stylesheet" media="(max-width: 992px)" href="responsive.css" />
+        <link rel="stylesheet" media="all and (max-width: 992px)" href="responsive.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
         <script src="https://kit.fontawesome.com/573c3b0e03.js" crossorigin="anonymous"></script>
     </head>
@@ -40,7 +40,12 @@
         <div id="RECHERCHE">            
             <i  class="fas fa-map-marker-alt"></i>
             <form  action="traitement.php" method="post">
-                <input class= "form_ville" type="text" name="ville" placeholder="Marseille, France"/><input class="form_bouton" type="submit" value="Rechercher" />
+                <input class= "form_ville" type="text" name="ville" placeholder="Marseille, France"/>
+                <button class="form_bouton" type="submit">
+                    <span class="desktoponly">Rechercher</span>
+                    <i class="fas fa-search"></i>
+                </button>    
+                
             </form>
         </div>
 
