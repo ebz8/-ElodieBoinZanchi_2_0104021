@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 768px)
 {
-    
+
 
 /* _________________________ */
 /* _________Général_________ */
@@ -109,15 +109,27 @@ nav li :active
 {
     margin: 3% auto;
 }
+
 /* _________________________ */
 /* Hébergements____Résultats */
-/* _________________________ */
-
-
-
-/* Hebergements à Marseille: */
 /* _________Aperçu__________ */
 
+#heb_apercu
+{
+    flex: 0 0 100%;
+    padding: 0;
+    background-color: white;
+}
+
+#apercu_fiche_conteneur /* bloc des fiches */
+{
+    grid-template-columns: 100%;
+}
+
+#heb_apercu figure
+{
+    max-width: 100%;
+}
 
 /* Pieds de page */
 footer
