@@ -147,6 +147,7 @@ header
     padding-right: 5px;
 }
 
+/* _________En-tête_________ */
 /* _______Navigation________ */
 nav ul
 {
@@ -267,7 +268,7 @@ nav a:active
     box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.1);
 }
 
-.filtreicones /* à améliorer */
+.filtreicones
 {
     height: 100px;
     width: 100px;
