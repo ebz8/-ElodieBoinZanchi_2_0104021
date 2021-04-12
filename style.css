@@ -189,8 +189,8 @@ nav a:active
 #RECHERCHE
 {
     display: flex;
-    justify-content: stretch;
-    align-items: stretch;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     width: 430px;
     margin: 20px 0;
