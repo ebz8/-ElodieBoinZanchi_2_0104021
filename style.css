@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, p
 {
     margin: 0;
     padding: 0;
-    line-height: 2em;
+    line-height: 2rem;
 }
 
 /* _________________________ */
@@ -20,13 +20,13 @@ body
     max-width: 1340px;
     margin: 0 auto;
     font-family: 'Raleway';
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 button, input
 {
     font-family: 'Raleway';
-    font-size: 16px;
+    font-size: 1rem;
     border: solid #F2F2F2 1px;
     color:black;
     font-weight: bold;
@@ -83,8 +83,9 @@ h3
 
 h4
 {
-    font-size: 1rem; /* 16px */
+    font-size: 1.1rem; /* 16px */
     font-weight: bold;
+    line-height: 1.2rem;
 }
 
 h5
@@ -100,9 +101,15 @@ p
 
 .filtrenom
 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     padding: 10px;
+}
+
+.tarif_nuit
+{
+    font-size: 0.875rem;
+ 
 }
 
 .meilleursprix
@@ -158,7 +165,6 @@ nav ul
 {
     display: flex;
     padding: 0;
-
 }
 
 nav li
@@ -199,10 +205,8 @@ nav a:active
     height: 49.5px;
     width: 430px;
     margin: 20px 0;
-    font-size: 1.1em;
     border-radius: 15px;
     border: solid #f2f2f2 1px;
-
 }
 
 .fa-map-marker-alt
@@ -217,6 +221,8 @@ nav a:active
 form
 {
     display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
 }
 
 .form_ville
@@ -229,18 +235,30 @@ form
     color: #000;
     background-color: #fff;
     border: none;
-
 }
 
 .form_bouton
 {
     height: 50px;
+    min-width: 50px;
     font-weight: bold;
     background-color: #0065FC;
     color: white;
     border: none;
     border-radius: 0 14px 14px 0;
     padding: 0 22px;
+}
+
+
+.fa-search /*loupe*/
+{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 0 14px 14px 0;
 }
 
 /* _________________________ */
@@ -385,7 +403,7 @@ form
 
 #populaires
 {
-    flex: 0 0 25%;
+    flex: 0 0 340px;
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 2em;

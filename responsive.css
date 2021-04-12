@@ -24,6 +24,16 @@
 /* _________________________ */
 /* _________Général_________ */
 /* _________________________ */
+.desktop_only
+{
+    display: none;
+}
+
+.mobile_only
+{
+    display: flex;
+}
+
 body
 {
     margin: 0;
@@ -39,10 +49,6 @@ main
     margin: 0 5%;
 }
 
-.desktop_only
-{
-    display: none;
-}
 
 /* _________________________ */
 /* _________En-tête_________ */
@@ -119,22 +125,6 @@ nav li :active
 {
     flex: 1 1 100%;
     border: solid #f2f2f2 1px;
-}
-
-.fa-search /*loupe*/
-{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 50px;
-    height: 50px;
-    font-size: 1.5em;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    background-color: #0065FC;
-    border: none;
-    border-radius: 0 14px 14px 0;
 }
 
 /* _________________________ */
