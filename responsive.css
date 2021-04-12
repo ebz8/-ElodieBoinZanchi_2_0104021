@@ -49,7 +49,6 @@ main
     margin: 0 5%;
 }
 
-
 /* _________________________ */
 /* _________En-tête_________ */
 /* _________________________ */
@@ -117,7 +116,7 @@ nav li :active
 
 #RECHERCHE
 {
-    margin: 3% auto;
+    margin: 5% auto;
     border: none;
 }
 
@@ -126,6 +125,22 @@ nav li :active
     flex: 1 1 100%;
     border: solid #f2f2f2 1px;
 }
+
+/* _________________________ */
+/* ______Barre Filtres______ */
+/* _________________________ */
+
+#FILTRE
+{
+    margin: 25px 0;
+}
+
+.filtrebouton
+{
+    margin: 20px 10px 0px 0;
+
+}
+
 
 /* _________________________ */
 /* Hébergements____Résultats */
