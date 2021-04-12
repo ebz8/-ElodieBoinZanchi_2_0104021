@@ -307,6 +307,12 @@ nav a:active
     flex-wrap: wrap;
 }
 
+#HEBERGEMENTS :last-child
+{
+    background-color: tomato;
+}
+
+
 #HEBERGEMENTS figure:hover
 {
     filter: brightness(80%);
@@ -330,7 +336,7 @@ nav a:active
     font-size: 12px;
 }
 
-/* Hebergements à Marseille: */
+/* Hébergements____Résultats */
 /* _________Aperçu__________ */
 
 #heb_apercu

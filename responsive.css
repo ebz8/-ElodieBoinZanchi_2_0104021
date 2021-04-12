@@ -112,6 +112,16 @@ nav li :active
 
 /* _________________________ */
 /* Hébergements____Résultats */
+/* _________________________ */
+
+#HEBERGEMENTS :last-of-type
+{
+    order: 1;
+    background-color: tomato;
+}
+
+
+/* Hébergements____Résultats */
 /* _________Aperçu__________ */
 
 #heb_apercu
