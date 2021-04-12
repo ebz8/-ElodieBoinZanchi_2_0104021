@@ -17,20 +17,20 @@
 @media screen and (max-width: 768px)
 {
 
-/* General */
+/* Structure générale */
 body
 {
     margin: 0;
 }
 
-header
+header /* pq ne fait pas effet? */
 {
     margin: 0;
 }
 
 main
 {
-    margin: 0 3%;
+    margin: 0 5%;
 }
 
 /* En-tête */
@@ -46,7 +46,7 @@ header
     width: 100%;
 }
 
-.inscription
+.inscription /* S'inscrire */
 {
     position: absolute;
     top: 50px;
@@ -60,7 +60,7 @@ nav
     text-align: center;
     width: 100%;
     border-top: 0;
-    padding-top: 3%;
+    padding: 0;
 }
 
 nav li
@@ -105,15 +105,7 @@ nav li :active
 /* Pieds de page */
 footer
 {
-    display: flex;
-    flex-flow: column wrap;
-    line-height: 120%;
-    background-color: #f2f2f2;
-}
-
-.footer
-{
-    width: 100%;
+    grid-template-columns: 100%;
 }
 
 }

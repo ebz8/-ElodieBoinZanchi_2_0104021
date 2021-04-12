@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, p
+{
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+}
+
 /* Général */
 
 body
@@ -102,7 +109,7 @@ header
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    margin: 48px 3%;
+    margin: 48px 3% 20px 3%;
 }
 
 .menu
@@ -488,17 +495,9 @@ footer
 {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    line-height: 120%;
+    line-height: 35px;
     background-color: #f2f2f2;
-    margin: 0;
-    
-}
-
-.footer
-{
-    padding: 1em 10em 2em 2em;
-
-    
+    padding: 20px 50px;
 }
 
 footer a
