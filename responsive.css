@@ -5,7 +5,7 @@
 /*________________________________________________*/
 /*________________________________________________*/
 
-@media screen and (max-width: 992px)
+@media all and (max-width: 992px)
 {
 
 }
@@ -17,7 +17,7 @@
 /*________________________________________________*/
 /*________________________________________________*/
 
-@media screen and (max-width: 768px)
+@media all and (max-width: 768px) 
 {
 
 
@@ -114,11 +114,7 @@ nav li :active
 /* Hébergements____Résultats */
 /* _________________________ */
 
-#HEBERGEMENTS :last-of-type
-{
-    order: 1;
-    background-color: tomato;
-}
+
 
 
 /* Hébergements____Résultats */
@@ -139,6 +135,16 @@ nav li :active
 #heb_apercu figure
 {
     max-width: 100%;
+}
+
+/* Hebergements à Marseille: */
+/* _______Populaires________ */
+
+#populaires
+{
+    flex: 0 0 100%;
+    border-radius: 0;
+    padding: 0;
 }
 
 /* Pieds de page */
