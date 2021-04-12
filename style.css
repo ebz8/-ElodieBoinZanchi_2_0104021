@@ -164,7 +164,6 @@ nav a:active
 
 #RECHERCHE
 {
-
     display: flex;
     justify-content: stretch;
     align-items: stretch;
@@ -378,7 +377,6 @@ nav a:active
     border: solid black 1px;
     border: solid white 4px;
     border-radius: 10px;
-
 }
 
 #populaires img

@@ -23,21 +23,27 @@ body
     margin: 0;
 }
 
+header
+{
+    margin: 0;
+}
+
+main
+{
+    margin: 0 3%;
+}
 
 /* En-tête */
 header
 {
     flex-flow: row wrap;
     margin: 5% 2.5%;
-    height: 150px;
 }
     
 .menu
 {
     flex-flow: column wrap;
     width: 100%;
-    height: 80px;
-    background-color: lightsalmon;
 }
 
 .inscription
@@ -54,38 +60,46 @@ nav
     text-align: center;
     width: 100%;
     border-top: 0;
+    padding-top: 3%;
 }
-
 
 nav li
 {
-
     width: 50%;
     height: 40px;
-    background-color: hotpink;
     border-bottom: solid #f2f2f2 3px;
     border-top: none;
+    padding-top: 20px;
+    padding-right: 0;
 }
 
-nav a:hover
+nav li a:hover
 {
    color: #0065FC;
    border-top: none;
-   border-bottom: solid #0065FC 3px;
    text-decoration: none;
    font-weight: bold;
    padding-bottom: 20px;
-}
-
-
-nav li :active
-{
-   color: #0065FC;
-   text-decoration: none;
-   font-weight: bold;
    border-bottom: solid #0065FC 3px;
 }
 
+nav li :active
+{
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0065FC;
+    border-bottom: solid #0065FC 3px;
+
+}
+
+/* Formulaire de recherche */
+/* Formulaire de recherche */
+
+#RECHERCHE
+{
+    width: 100%;
+}
 
 
 /* Pieds de page */
