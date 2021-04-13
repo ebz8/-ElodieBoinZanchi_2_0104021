@@ -49,6 +49,16 @@ main
     margin: 0 5%;
 }
 
+
+/* _________________________ */
+/* _____Styles textuels_____ */
+/* _________________________ */
+
+p /* Améliorer */
+{
+    font-size: 0.875rem; /* 14px */
+}
+
 /* _________________________ */
 /* _________En-tête_________ */
 /* _________________________ */
@@ -67,8 +77,8 @@ header
 .inscription /* S'inscrire */
 {
     position: absolute;
-    top: 50px;
-    right: 3%;
+    top: 40px;
+    right: 5%;
 }
 
 /* _________En-tête_________ */
@@ -137,7 +147,7 @@ nav li :active
 
 .filtrebouton
 {
-    margin: 20px 10px 0px 0;
+    margin: 15px 10px 0px 0;
 
 }
 
@@ -146,8 +156,10 @@ nav li :active
 /* Hébergements____Résultats */
 /* _________________________ */
 
-
-
+#HEBERGEMENTS
+{
+    background-color: #f2f2f2;
+}
 
 /* Hébergements____Résultats */
 /* _________Aperçu__________ */
@@ -157,11 +169,13 @@ nav li :active
     flex: 0 0 100%;
     padding: 0;
     background-color: white;
+    border-radius: 0;
 }
 
 #apercu_fiche_conteneur /* bloc des fiches */
 {
     grid-template-columns: 100%;
+    margin: 1em 0;
 }
 
 #heb_apercu figure
@@ -173,14 +187,15 @@ nav li :active
 /* _______Populaires________ */
 
 
+#populaires
+{
+    flex: 1 1 100%;
+    border-radius: 0;
+}
+
 /* _________________________ */
 /* __Activités à Marseille__ */
 /* _________________________ */
-
-.activites_conteneur figure
-{
-    width: 100%;
-}
 
 .vieuxport img, .fortdepomegues img, .ilesdufrioul img,
 .parcnationaldescalanques img, .notredamedelagarde img,
