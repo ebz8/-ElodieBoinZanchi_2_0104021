@@ -148,7 +148,6 @@ nav li :active
 .filtrebouton
 {
     margin: 15px 10px 0px 0;
-
 }
 
 
@@ -166,21 +165,12 @@ nav li :active
 
 #heb_apercu
 {
-    flex: 0 0 100%;
-    padding: 0;
-    background-color: white;
-    border-radius: 0;
-}
-
-#apercu_fiche_conteneur /* bloc des fiches */
-{
-    grid-template-columns: 100%;
-    margin: 1em 0;
+    width: 100%;
 }
 
 #heb_apercu figure
 {
-    max-width: 100%;
+    width: 100%;
 }
 
 /* Hebergements à Marseille: */
