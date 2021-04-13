@@ -188,9 +188,12 @@ nav a:hover
    font-weight: bold;
 }
 
-nav a:active
+nav a:focus
 {
    color: #0065FC;
+   border-top: solid #0065FC 2px;
+   font-weight: bold;
+
 }
 
 /* _________________________ */
