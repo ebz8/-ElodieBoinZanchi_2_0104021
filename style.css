@@ -99,13 +99,6 @@ p
     font-size: 0.875rem; /* 14px */
 }
 
-.lienactif
-{
-    color: #0065FC;
-    border-top: solid #0065FC 2px;
-    font-weight: bold;
-}
-
 .filtrenom
 {
     font-size: 1rem;
@@ -140,7 +133,13 @@ header
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    margin: 48px 3% 20px 3%;
+    margin: 0 20px;
+}
+
+.logo
+{
+    width: 100px;
+    padding-top: 30px;
 }
 
 /* _________En-tête_________ */
@@ -150,41 +149,36 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: -15px;
 }
 
-.logo
-{
-    width: 100px;
-}
-
-.inscription a /* S'inscrire */
-{
-    color: #0065FC;
-    font-weight: bold;
-    border: none;
-    padding-right: 5px;
-}
-
-/* _________En-tête_________ */
 /* _______Navigation________ */
+
 nav ul
 {
     display: flex;
-    padding: 0;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
 
 nav li
 {
+    width: 120px;
+    padding: 40px 20px 0 20px; 
+    text-align: center;
     list-style-type: none;
-    padding-right: 60px;
+}
+
+nav li:nth-child(1)
+{
+    color: #0065FC;
+    border-top: solid #0065FC 2px;
+    font-weight: bold;
 }
 
 nav a
 {
     color: black; 
     font-weight: normal;
-    padding-top: 50px;
 }
 
 nav a:hover
@@ -194,12 +188,17 @@ nav a:hover
    font-weight: bold;
 }
 
-nav a:active
+/* _______S'inscrire________ */
+.inscription
 {
-   color: #0065FC;
-   border-top: solid #0065FC 2px;
-   font-weight: bold;
-
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.inscription a
+{
+    color: #0065FC;
+    font-weight: bold;
+    border: none;
 }
 
 /* _________________________ */

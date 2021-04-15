@@ -83,7 +83,7 @@ header
 
 /* _________En-tête_________ */
 /* _______Navigation________ */
-nav
+/* nav
 {
     text-align: center;
     width: 100%;
@@ -109,7 +109,7 @@ nav li a:hover
    font-weight: bold;
    padding-bottom: 20px;
    border-bottom: solid #0065FC 3px;
-}
+} */
 
 nav li :active
 {
