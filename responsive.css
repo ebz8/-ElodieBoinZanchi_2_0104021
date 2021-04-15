@@ -25,19 +25,9 @@
 /* _________Général_________ */
 /* _________________________ */
 
-body
+body, header, main
 {
     margin: 0;
-}
-
-header
-{
-    margin: 0;
-}
-
-main
-{
-    margin: 0 5%;
 }
 
 .desktop_only
@@ -116,10 +106,18 @@ nav li:nth-child(2)
 }
 
 /* _________________________ */
-/* _Formulaire de recherche_ */
+/* ____Section Recherche____ */
 /* _________________________ */
 
 #RECHERCHE
+{
+    margin: 0 5%;
+}
+
+/* _Formulaire_de_recherche_ */
+/* _________________________ */
+
+#FORMULAIRE
 {
     border: none;
     width: 100%;
@@ -164,6 +162,7 @@ nav li:nth-child(2)
 
 #HEBERGEMENTS
 {
+    flex-wrap: wrap-reverse;
     background-color: #f2f2f2;
 }
 
@@ -173,6 +172,8 @@ nav li:nth-child(2)
 #heb_apercu
 {
     width: 100%;
+    background-color: white;
+    border-radius: 0;
 }
 
 #heb_apercu figure
