@@ -99,6 +99,13 @@ p
     font-size: 0.875rem; /* 14px */
 }
 
+.lienactif
+{
+    color: #0065FC;
+    border-top: solid #0065FC 2px;
+    font-weight: bold;
+}
+
 .filtrenom
 {
     font-size: 1rem;
@@ -183,12 +190,11 @@ nav a
 nav a:hover
 {
    color: #0065FC;
-   border-top: solid #0065FC 2px;
    text-decoration: none;
    font-weight: bold;
 }
 
-nav a:focus
+nav a:active
 {
    color: #0065FC;
    border-top: solid #0065FC 2px;
