@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, p
 
 body
 {
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
     font-family: 'Raleway';
     font-size: 1rem;
@@ -41,7 +41,7 @@ input[type="text"]::-moz-placeholder /* Style formulaire avec Firefox */
 
 main
 {
-    margin: 48px 3%;
+    margin: 50px;
 }
 
 a
@@ -374,25 +374,23 @@ form
 
 #heb_apercu
 {
-    width: 819px;
-    padding: 2em 2em;
+    padding: 40px;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
 
 #apercu_fiche_conteneur /* bloc des fiches */
 {
+    width: 800px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    width: 100%;
 }
 
 #heb_apercu figure
 {
-    width: 250px;
-    height: 196px;
-    margin: auto;
+    width: 246px;
+    height: 199px;
     line-height: 20%;
     margin: 20px 0px 15px 0;
     background-color: white;
@@ -419,10 +417,9 @@ form
 
 #populaires
 {
-    width: 340px;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 2em;
+    padding: 38px;
 }
 
 #pop_fiche_conteneur /* bloc des fiches */
@@ -448,9 +445,9 @@ form
 #populaires figure
 {
     display: flex;
-    flex: 1 0 133px;
-    height: 135px;
-    margin: 6% 0;
+    height: 134px;
+    width: 338px;
+    margin: 33px 0;
     line-height: 0.9em;
     background-color: white;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
