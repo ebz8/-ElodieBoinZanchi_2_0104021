@@ -138,7 +138,7 @@ header
 
 .logo
 {
-    width: 100px;
+    width: 95px;
     margin-top: 45px;
 }
 
@@ -456,14 +456,14 @@ form
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
     border: solid black 1px;
     border: solid white 4px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 #populaires img
 {
     height: auto;
     width: 127px;
-    border-radius: 10px 0 0 10px;
+    border-radius: 20px 0 0 20px;
 }
 
 
