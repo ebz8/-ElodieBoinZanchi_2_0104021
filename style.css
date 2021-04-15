@@ -420,9 +420,10 @@ form
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 38px;
+    max-width: 800px;
 }
 
-#pop_fiche_conteneur /* bloc des fiches */
+.pop_fiche_conteneur /* bloc des fiches */
 {
     display: flex;
     flex-flow: column wrap;
@@ -446,8 +447,8 @@ form
 {
     display: flex;
     height: 134px;
-    width: 338px;
-    margin: 33px 0;
+    max-width: 338px;
+    margin: 15px 0; /*verifier*/
     line-height: 0.9em;
     background-color: white;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);

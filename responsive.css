@@ -5,8 +5,22 @@
 /*________________________________________________*/
 /*________________________________________________*/
 
-@media screen and (max-width: 992px)
+@media screen and (max-device-width: 1400px),
+screen and (max-width: 1400px)
 {
+  
+/* Hebergements à Marseille: */
+/* _______Populaires________ */
+#populaires
+{
+    width: 100%;
+}
+
+.pop_fiche_conteneur /* bloc des fiches */
+{
+    display: flex;
+    flex-flow: row nowrap;
+}
 
 }
 
@@ -171,9 +185,13 @@ nav li:nth-child(2)
 
 #heb_apercu
 {
-    width: 100%;
     background-color: white;
     border-radius: 0;
+}
+
+#apercu_fiche_conteneur /* bloc des fiches */
+{
+    width: 100%;
 }
 
 #heb_apercu figure
