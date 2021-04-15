@@ -5,8 +5,7 @@
 /*________________________________________________*/
 /*________________________________________________*/
 
-@media screen and (max-device-width: 1400px),
-screen and (max-width: 1400px)
+@media screen and (max-width: 1400px)
 {
   
 /* Hebergements à Marseille: */
@@ -19,7 +18,7 @@ screen and (max-width: 1400px)
 .pop_fiche_conteneur /* bloc des fiches */
 {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 }
 
 }
@@ -31,8 +30,7 @@ screen and (max-width: 1400px)
 /*________________________________________________*/
 /*________________________________________________*/
 
-@media screen and (max-device-width: 667px),
-        screen and (max-width: 667px)
+@media screen and (max-width: 667px)
 {
 
 /* _________________________ */
