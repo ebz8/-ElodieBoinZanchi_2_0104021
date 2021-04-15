@@ -5,21 +5,46 @@
 /*________________________________________________*/
 /*________________________________________________*/
 
-@media screen and (max-width: 1400px)
+@media screen and (max-width: 1400px) and (min-width: 666px)
 {
-  
+ 
+#heb_apercu
+{
+    background-color: white;
+}
+
 /* Hebergements à Marseille: */
 /* _______Populaires________ */
 #populaires
 {
-    width: 100%;
+    width: 800px;
+    max-width: none;
+    padding: 38px;
 }
 
 .pop_fiche_conteneur /* bloc des fiches */
 {
+    width: 800px;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
+
+#populaires figure
+{
+    line-height: 20%;
+    margin: 20px 0px 15px 0;
+    background-color: white;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
+    border: solid white 4px;
+    border-radius: 20px;
+}
+
+#populaires img
+{
+    width: 100px;
+}
+
 
 }
 
