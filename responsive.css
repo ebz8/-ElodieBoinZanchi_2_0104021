@@ -50,7 +50,6 @@ main
     display: flex;
 }
 
-
 /* _________________________ */
 /* _____Styles textuels_____ */
 /* _________________________ */
@@ -58,6 +57,7 @@ main
 p /* Améliorer */
 {
     font-size: 0.875rem; /* 14px */
+    line-height: 1rem;
 }
 
 /* _________________________ */
@@ -121,30 +121,26 @@ nav li:nth-child(2)
 
 #RECHERCHE
 {
-    margin: 5% auto;
     border: none;
+    width: 100%;
+    border: solid #f2f2f2 1px;
 }
 
 .fa-map-marker-alt /*icone position*/
 {
-
     width: 45px;
     padding: 17px O;
 }
 
 .form_ville
 {
-    flex: 1 1 100%;
-    border: solid #f2f2f2 1px;
+    flex: 1 1 80%;
 }
 
 .form_bouton
 {
     width: 50px;
     border-radius: 14px 14px 14px 14px;
-    margin-left: -40px;
-
-
 }
 
 /* _________________________ */
