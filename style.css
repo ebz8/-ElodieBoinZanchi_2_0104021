@@ -168,8 +168,9 @@ nav li
     list-style-type: none;
 }
 
-nav li:nth-child(1)
+nav li:nth-child(1) a
 {
+    padding-top: 40px;
     color: #0065FC;
     border-top: solid #0065FC 2px;
     font-weight: bold;
