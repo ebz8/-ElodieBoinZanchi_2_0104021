@@ -139,7 +139,7 @@ header
 .logo
 {
     width: 100px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 /* _________En-tête_________ */
@@ -164,16 +164,19 @@ nav li
 {
     width: 120px;
     padding: 40px 20px 0 20px; 
-    text-align: center;
     list-style-type: none;
+    text-align: center;
+    border-top: solid #0065FC 2px;
 }
 
 nav li:nth-child(1) a
 {
-    padding-top: 40px;
     color: #0065FC;
-    border-top: solid #0065FC 2px;
-    font-weight: bold;
+}
+
+nav li:nth-child(2)
+{
+    border-top: none;
 }
 
 nav a

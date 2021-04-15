@@ -24,15 +24,6 @@
 /* _________________________ */
 /* _________Général_________ */
 /* _________________________ */
-.desktop_only
-{
-    display: none;
-}
-
-.mobile_only
-{
-    display: flex;
-}
 
 body
 {
@@ -47,6 +38,16 @@ header /* pq ne fait pas effet? */
 main
 {
     margin: 0 5%;
+}
+
+.desktop_only
+{
+    display: none;
+}
+
+.mobile_only
+{
+    display: flex;
 }
 
 
@@ -67,57 +68,46 @@ header
     flex-flow: row wrap;
     margin: 5% 2.5%;
 }
-    
+  
+/* _________En-tête_________ */
+/* __________Menu___________ */
 .menu
 {
-    flex-flow: column wrap;
     width: 100%;
-}
-
-.inscription /* S'inscrire */
-{
-    position: absolute;
-    top: 40px;
-    right: 5%;
+    margin-top: 10px;
 }
 
 /* _________En-tête_________ */
 /* _______Navigation________ */
-/* nav
+nav
 {
-    text-align: center;
     width: 100%;
-    border-top: 0;
+}
+
+nav ul
+{
     padding: 0;
 }
 
 nav li
 {
-    width: 50%;
-    height: 40px;
-    border-bottom: solid #f2f2f2 3px;
+    width: 100%;
     border-top: none;
-    padding-top: 20px;
-    padding-right: 0;
+    padding: 0 0px 40px 0px;
+    border-bottom: solid #0065FC 3px;
 }
 
-nav li a:hover
+nav li:nth-child(2)
 {
-   color: #0065FC;
-   border-top: none;
-   text-decoration: none;
-   font-weight: bold;
-   padding-bottom: 20px;
-   border-bottom: solid #0065FC 3px;
-} */
+    border-bottom: solid #F2F2F2 3px;
+}
 
-nav li :active
+/* _______S'inscrire________ */
+.inscription /* S'inscrire */
 {
-    padding-bottom: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #0065FC;
-    border-bottom: solid #0065FC 3px;
+    position: absolute;
+    top: 40px;
+    right: 5%;
 }
 
 /* _________________________ */
