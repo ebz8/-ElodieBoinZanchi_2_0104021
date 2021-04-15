@@ -198,6 +198,7 @@ nav a:hover
     padding-top: 40px;
     padding-left: 20px;
 }
+
 .inscription a
 {
     color: #0065FC;
@@ -208,7 +209,6 @@ nav a:hover
 /* _________________________ */
 /* _Formulaire de recherche_ */
 /* _________________________ */
-
 #RECHERCHE
 {
     display: flex;
@@ -221,7 +221,7 @@ nav a:hover
     border: solid #f2f2f2 1px;
 }
 
-.fa-map-marker-alt
+.fa-map-marker-alt /*icone position*/
 {
     width: 50px;
     text-align: center;
@@ -252,7 +252,6 @@ form
 .form_bouton
 {
     height: 50px;
-    min-width: 50px;
     font-weight: bold;
     background-color: #0065FC;
     color: white;
@@ -261,10 +260,10 @@ form
     padding: 0 22px;
 }
 
-.fa-search /*loupe à finir*/
+.fa-search /*icone loupe*/
 {
-    margin: auto;
     font-weight: bold;
+    font-size: 1.20rem;
     color: white;
 }
 
@@ -291,7 +290,7 @@ form
 .filtrebouton
 {
     height: 50px;
-    padding: 3px 20px 3px 0;
+    padding: 3px 10px 3px 0;
     margin: 0 0 0px 25px;
     background-color: white;
     border: solid 2px #f2f2f2;
