@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, p
 
 body
 {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     font-family: 'Raleway';
     font-size: 1rem;
@@ -41,7 +41,7 @@ input[type="text"]::-moz-placeholder /* Style formulaire avec Firefox */
 
 main
 {
-    margin: 50px;
+    margin: 30px 50px;
 }
 
 a
@@ -109,7 +109,6 @@ p
 .tarif_nuit
 {
     font-size: 0.875rem;
- 
 }
 
 .meilleursprix
@@ -140,6 +139,7 @@ header
 {
     width: 95px;
     margin-top: 45px;
+    margin-left: 29px;
 }
 
 /* _________En-tête_________ */
@@ -343,7 +343,7 @@ form
 {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 #HEBERGEMENTS figure:hover
@@ -459,7 +459,7 @@ form
 #populaires img
 {
     height: auto;
-    width: 127px;
+    width: 133px;
     border-radius: 20px 0 0 20px;
 }
 

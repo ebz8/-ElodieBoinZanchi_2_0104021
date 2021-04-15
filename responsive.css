@@ -13,12 +13,12 @@
 /*________________________________________________*/
 /*________________________________________________*/
 /*___________________ -MOBILE- ___________________*/
-/*_____________ -MEDIUM (Bootstrap)- _____________*/
+/*__________________ -IPHONE 8- __________________*/
 /*________________________________________________*/
 /*________________________________________________*/
 
-@media screen and (max-device-width: 768px),
-        screen and (max-width: 768px)
+@media screen and (max-device-width: 375px),
+        screen and (max-width: 375px)
 {
 
 /* _________________________ */
@@ -111,7 +111,7 @@ nav li:nth-child(2)
 
 #RECHERCHE
 {
-    margin: 0 5%;
+    margin: 0 20px;
 }
 
 /* _Formulaire_de_recherche_ */
@@ -183,12 +183,23 @@ nav li:nth-child(2)
 
 /* Hebergements à Marseille: */
 /* _______Populaires________ */
-
-
 #populaires
 {
-    flex: 1 1 100%;
     border-radius: 0;
+}
+
+#pop_fiche_conteneur /* bloc des fiches */
+{
+    width: 100%;
+}
+
+#populaires figure
+{
+    width: 100%;
+    height: 144px;
+    margin: 15px 0;
+
+
 }
 
 /* _________________________ */
