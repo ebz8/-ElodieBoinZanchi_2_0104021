@@ -264,7 +264,7 @@ form
 .fa-search /*icone loupe*/
 {
     font-weight: bold;
-    font-size: 1.20rem;
+    font-size: 1.125rem;
     color: white;
 }
 
@@ -311,6 +311,7 @@ form
     padding: 15px 15px;
     margin-left: -2px;
     text-align: center;
+    font-size: 1.125rem;
     color:#0065FC;
     background-color: #DEEBFF;
     border-radius: 50px;
@@ -319,6 +320,7 @@ form
 /* infos résultats*/
 .INFO
 {
+    display: flex;
     height: 50px;
     flex: 1 0 100%;
     margin-bottom: 10px;

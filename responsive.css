@@ -54,10 +54,10 @@ main
 /* _____Styles textuels_____ */
 /* _________________________ */
 
-p /* Améliorer */
+p
 {
-    font-size: 0.875rem; /* 14px */
-    line-height: 1rem;
+    font-size: 1rem; /* 16px */
+    line-height: 1.3rem;
 }
 
 /* _________________________ */
