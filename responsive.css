@@ -12,15 +12,10 @@
 /* Hébergements____Résultats */
 /* _________________________ */
 
-#HEBERGEMENTS
-{
-    width: 80%;
-}
-
-#heb_apercu
+/* #heb_apercu
 {
     background-color: white;
-}
+} */
 
 /* Hebergements à Marseille: */
 /* _______Populaires________ */
@@ -29,6 +24,7 @@
     width: 800px;
     max-width: none;
     padding: 20px;
+    background-color: white;
 }
 
 .pop_fiche_conteneur /* bloc des fiches */
@@ -75,7 +71,7 @@
 /*________________________________________________*/
 /*________________________________________________*/
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 767px)
 {
 
 /* _________________________ */
@@ -194,14 +190,9 @@ nav li:nth-child(2)
     width: 90%;
 }
 
-/* .form_ville
-{
-    flex: 1 1 70%;
-} */
-
 .form_bouton
 {
-    width: 50px;
+    text-align: center;
     border-radius: 14px 14px 14px 14px;
 }
 
@@ -256,6 +247,7 @@ nav li:nth-child(2)
 {
     border-radius: 0;
     padding: 20px;
+    width: 100%;
 }
 
 #pop_fiche_conteneur /* bloc des fiches */
@@ -268,6 +260,17 @@ nav li:nth-child(2)
     width: 100%;
     height: 144px;
     margin: 15px 0;
+}
+
+#populaires img
+{
+    width: 40%;
+    max-width: 133px;
+}
+
+#populaires figcaption
+{
+    padding: 20px;
 }
 
 /* _________________________ */
@@ -298,5 +301,22 @@ footer
     grid-template-columns: 100%;
 }
 
+
+}
+
+
+/*________________________________________________*/
+/*________________________________________________*/
+/*___________________ -MOBILE- ___________________*/
+/*__________________ -SMALL- __________________*/
+/*________________________________________________*/
+/*________________________________________________*/
+
+@media screen and (max-width: 330px)
+{
+#populaires figcaption
+{
+    padding: 10px;
+}
 
 }
