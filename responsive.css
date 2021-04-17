@@ -229,6 +229,7 @@ nav li:nth-child(2)
 {
     background-color: white;
     border-radius: 0;
+    padding: 20px;
 }
 
 #apercu_fiche_conteneur /* bloc des fiches */
@@ -239,6 +240,7 @@ nav li:nth-child(2)
 #heb_apercu figure
 {
     width: 100%;
+    line-height: 1.5rem; /*changer*/
 }
 
 /* Hebergements à Marseille: */
@@ -275,7 +277,6 @@ nav li:nth-child(2)
     margin: 10px 0;
 }
 
-
 .vieuxport img, .fortdepomegues img, .ilesdufrioul img,
 .parcnationaldescalanques img, .notredamedelagarde img,
 .parclongchamp img
@@ -288,6 +289,7 @@ footer
 {
     grid-template-columns: 100%;
 }
+
 
 }
 
