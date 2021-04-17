@@ -264,11 +264,23 @@ nav li:nth-child(2)
 /* __Activités à Marseille__ */
 /* _________________________ */
 
+#ACTIVITES
+{
+    margin: 20px;
+}
+
+.activites_conteneur figure
+{
+    width: 100%;
+    margin: 10px 0;
+}
+
+
 .vieuxport img, .fortdepomegues img, .ilesdufrioul img,
 .parcnationaldescalanques img, .notredamedelagarde img,
 .parclongchamp img
 {
-    height: 150px;
+    height: 120px;
 }
 
 /* Pieds de page */

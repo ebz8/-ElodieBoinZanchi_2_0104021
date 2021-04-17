@@ -500,7 +500,7 @@ form
 {
     margin: 0;
     padding: 0;
-    border-radius: 15px;
+    border-radius: 20px;
     width: 300px;
     box-shadow: 1px 10px 10px #F2F2F2;
 }
@@ -508,7 +508,7 @@ form
 .activites_conteneur img
 {
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 20px 20px 0 0;
 }
 
 .activites_conteneur figcaption
