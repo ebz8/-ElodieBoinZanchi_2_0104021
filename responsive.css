@@ -171,13 +171,15 @@ nav li:nth-child(2)
     margin: 0 20px;
 }
 
+/* _________________________ */
 /* _Formulaire_de_recherche_ */
 /* _________________________ */
 
 #FORMULAIRE
 {
+    margin: 10px auto;
     border: none;
-    width: 100%;
+    width: 90%;
     border: solid #f2f2f2 1px;
 }
 
@@ -189,8 +191,13 @@ nav li:nth-child(2)
 
 .form_ville
 {
-    flex: 1 1 80%;
+    width: 90%;
 }
+
+/* .form_ville
+{
+    flex: 1 1 70%;
+} */
 
 .form_bouton
 {
@@ -219,7 +226,6 @@ nav li:nth-child(2)
 #HEBERGEMENTS
 {
     flex-wrap: wrap-reverse;
-    background-color: #f2f2f2;
 }
 
 /* Hébergements____Résultats */
@@ -229,7 +235,8 @@ nav li:nth-child(2)
 {
     background-color: white;
     border-radius: 0;
-    padding: 20px;
+    padding: 0;
+    margin: 20px;
 }
 
 #apercu_fiche_conteneur /* bloc des fiches */
@@ -248,6 +255,7 @@ nav li:nth-child(2)
 #populaires
 {
     border-radius: 0;
+    padding: 20px;
 }
 
 #pop_fiche_conteneur /* bloc des fiches */
@@ -292,5 +300,3 @@ footer
 
 
 }
-
-
