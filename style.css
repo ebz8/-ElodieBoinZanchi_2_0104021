@@ -176,7 +176,7 @@ nav li:nth-child(1) a
 
 nav li:nth-child(2)
 {
-    border-top: none;
+    border-top: solid white 2px;
 }
 
 nav a
@@ -195,7 +195,7 @@ nav a:hover
 /* _______S'inscrire________ */
 .inscription
 {
-    padding-top: 40px;
+    padding-top: 42px;
     padding-left: 20px;
 }
 
