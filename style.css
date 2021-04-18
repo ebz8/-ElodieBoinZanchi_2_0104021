@@ -99,13 +99,6 @@ p
     font-size: 0.875rem; /* 14px */
 }
 
-.filtrenom
-{
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 10px;
-}
-
 .tarif_nuit
 {
     font-size: 0.875rem;
@@ -304,6 +297,13 @@ form
     box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.1);
 }
 
+.filtrenom
+{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
 .filtreicones
 {
     height: 100px;
@@ -462,7 +462,6 @@ form
     width: 133px;
     border-radius: 20px 0 0 20px;
 }
-
 
 #populaires figcaption
 {

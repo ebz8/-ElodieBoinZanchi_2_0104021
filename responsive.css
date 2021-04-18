@@ -5,33 +5,32 @@
 /*________________________________________________*/
 /*________________________________________________*/
 
-@media screen and (max-width: 1400px) and (min-width: 666px)
+@media screen and (max-width: 1400px) and (min-width: 718px)
 {
  
 /* _________________________ */
 /* Hébergements____Résultats */
 /* _________________________ */
 
-/* #heb_apercu
+#apercu_fiche_conteneur /* bloc des fiches */
 {
-    background-color: white;
-} */
+    width: 100%;
+    max-width: 800px;
+}
 
 /* Hebergements à Marseille: */
 /* _______Populaires________ */
 #populaires
 {
-    width: 800px;
-    max-width: none;
+    width: 100%;
     padding: 20px;
     background-color: white;
 }
 
 .pop_fiche_conteneur /* bloc des fiches */
 {
-    width: 800px;
-    display: flex;
-    flex-flow: row nowrap;
+    max-width: 800px;
+    flex-flow: row wrap;
     justify-content: space-between;
     flex-shrink: 1;
 }
@@ -42,7 +41,7 @@
     width: 246px;
     height: 199px;
     line-height: 20%;
-    margin: 20px 0px 15px 0;
+    margin: 10px 0px 10px 0;
     background-color: white;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
     border: solid white 4px;
@@ -73,7 +72,7 @@
 /*________________________________________________*/
 /*________________________________________________*/
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 718px)
 {
 
 /* _________________________ */
@@ -211,6 +210,8 @@ nav li:nth-child(2)
 .filtrebouton
 {
     margin: 15px 10px 0px 0;
+    padding: 0;
+
 } 
 
 /* _________________________ */
@@ -238,9 +239,16 @@ nav li:nth-child(2)
     width: 100%;
 }
 
+#heb_apercu a
+{
+    width: 100%;
+}
+
 #heb_apercu figure
 {
     width: 100%;
+    max-width: 335px;
+    margin: 10px auto;
     line-height: 1.5rem; /*changer*/
 }
 
@@ -262,13 +270,14 @@ nav li:nth-child(2)
 {
     width: 100%;
     height: 144px;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 
 #populaires img
 {
-    width: 40%;
+    width: 100%;
     max-width: 133px;
+    min-width: 100px;
 }
 
 #populaires figcaption
@@ -285,17 +294,24 @@ nav li:nth-child(2)
     margin: 20px;
 }
 
+.activites_conteneur /* bloc des fiches */
+{
+    flex-flow: column wrap;
+}
+
+
 .activites_conteneur figure
 {
     width: 100%;
-    margin: 10px 0;
+    max-width: 335px;
+    margin: 10px auto;
 }
 
 .vieuxport img, .fortdepomegues img, .ilesdufrioul img,
 .parcnationaldescalanques img, .notredamedelagarde img,
 .parclongchamp img
 {
-    height: 120px;
+    height: 134px;
 }
 
 /* Pieds de page */
