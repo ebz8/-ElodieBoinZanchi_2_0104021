@@ -12,10 +12,17 @@
 /* Hébergements____Résultats */
 /* _________________________ */
 
+#heb_apercu
+{
+    background-color: white;
+    padding: 38px 0 0 0;
+}
+
+
 #apercu_fiche_conteneur /* bloc des fiches */
 {
     width: 100%;
-    max-width: 800px;
+    max-width: 880px;
 }
 
 /* Hebergements à Marseille: */
@@ -23,14 +30,12 @@
 #populaires
 {
     width: 100%;
-    background-color: white;
-    padding: 10px 0;
+    max-width: 800px;
 }
 
 .pop_fiche_conteneur /* bloc des fiches */
 {
     width: 100%;
-    max-width: 880px;
     flex-flow: row wrap;
     justify-content: space-between;
     flex-shrink: 1;
@@ -51,6 +56,24 @@
     padding: 10px;
 }
 
+/* _________________________ */
+/* __Activités à Marseille__ */
+/* _________________________ */
+
+#ACTIVITES
+{
+    margin-top: 20px;
+}
+
+.activites_conteneur /* bloc des fiches */
+{
+    max-width: 880px;
+}
+
+.colonne, .colonnedouble
+{
+    width: 33.33%;
+}
 
 }
 
@@ -168,6 +191,7 @@ nav li:nth-child(2)
     margin: 10px auto;
     border: none;
     width: 90%;
+    max-width: 400px;
     border: solid #f2f2f2 1px;
 }
 
