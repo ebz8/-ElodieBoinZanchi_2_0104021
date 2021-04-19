@@ -531,30 +531,27 @@ form
 }
 
 /* Dimension des images */
-
 .vieuxport img, .parcnationaldescalanques img
 {
     height: 390px;
 }
 
-/* Colonne double n.1 */
-.fortdepomegues img
+.fortdepomegues img /* colonne double n.1 */
 {
     height: 182px;
 }
 
-.ilesdufrioul img
+.ilesdufrioul img /* colonne double n.1 */
 {
     height: 110px;
 }
 
-/* Colonne double n.2 */
-.notredamedelagarde img
+.notredamedelagarde img /* colonne double n.2 */
 {
     height: 141px;
 }
 
-.parclongchamp img
+.parclongchamp img /* colonne double n.2 */
 {
     height: 154px;
 }
