@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1400px) and (min-width: 977px)
 {
- 
+
 /* _________________________ */
 /* Hébergements____Résultats */
 /* _________________________ */
@@ -73,17 +73,21 @@
 
 /* Types de colonnes */
 
+.colonne
+{
+    width: 30%;
+}
 .colonnedouble
 {
+    width: 70%;
     flex-flow: row wrap;
-    justify-content: space-between;
     padding-bottom: 40px;
 }
 
 /* Cartes */
 .activites_conteneur figure
 {
-    width: 265px;
+    max-width: 265px;
     /* margin: 0 20px; */
 }
 
@@ -114,6 +118,56 @@
 @media screen and (max-width: 976px) and (min-width: 719px)
 {
 
+/* Hebergements à Marseille: */
+/* _______Populaires________ */
+#populaires
+{
+    width: 100%;
+    max-width: 800px;
+}
+
+.pop_fiche_conteneur /* bloc des fiches */
+{
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+
+#populaires figure
+{
+    max-width: 246px;
+}
+#populaires img
+{
+    width: 100%;
+    max-width: 90px;
+}
+
+#populaires figcaption
+{
+    padding: 10px;
+}
+
+/* _________________________ */
+/* Hébergements____Résultats */
+/* _________Aperçu__________ */
+#heb_apercu
+{
+    background-color: white;
+    padding: 38px 0 0 0;
+}
+
+#apercu_fiche_conteneur /* bloc des fiches */
+{
+    width: 100%;
+}
+
+#heb_apercu figure
+{
+    width: 100%;
+    min-width: 300px;
+}
 
 /* _________________________ */
 /* __Activités à Marseille__ */
@@ -125,7 +179,6 @@
     width: 50%;
     padding-bottom: 40px;
 }
-
 
 /* Cartes */
 .activites_conteneur figure
@@ -139,8 +192,8 @@
 
 /*________________________________________________*/
 /*________________________________________________*/
+/*______________ -BREAKPOINT N.3- ________________*/
 /*___________________ -MOBILE- ___________________*/
-/*__________________ -IPHONE 8- __________________*/
 /*________________________________________________*/
 /*________________________________________________*/
 

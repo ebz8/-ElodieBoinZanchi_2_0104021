@@ -389,14 +389,14 @@ form
 
 #heb_apercu figure
 {
-    width: 246px;
+    min-width: 246px;
     height: 199px;
-    line-height: 20%; /*changer*/
     margin: 20px 0 15px 0;
+    line-height: 20%; /*changer*/
     background-color: white;
-    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
-    border: solid white 4px;
     border-radius: 20px;
+    border: solid white 4px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 #heb_apercu img
