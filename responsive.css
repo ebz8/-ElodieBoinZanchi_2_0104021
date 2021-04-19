@@ -65,39 +65,42 @@
     margin-top: 20px;
 }
 
-.activites_conteneur /* bloc des fiches */
+.activites_conteneur /* conteneur colonnes */
 {
     max-width: 880px;
+    justify-content: flex-start;
 }
 
+/* Types de colonnes */
+
+.colonnedouble
+{
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+/* Cartes */
 .activites_conteneur figure
 {
-    width: 250px;
+    width: 265px;
+    /* margin: 0 20px; */
+}
+
+.colonnedouble figure
+{
+    margin-left: 40px;
 }
 
 .vieuxport img, .fortdepomegues img, .ilesdufrioul img,
 .parcnationaldescalanques img, .notredamedelagarde img,
 .parclongchamp img
 {
-    height: 300px;
+    height: 280px;
 }
 
-/* Types de colonnes */
-
-.colonne
-{
-    max-width: 30%;
-    padding-bottom: 40px;
-}
-.colonnedouble
-{
-    width: 68%;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
 
 }
-
 
 
 /*________________________________________________*/
