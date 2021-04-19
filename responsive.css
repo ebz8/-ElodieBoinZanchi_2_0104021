@@ -306,7 +306,7 @@ nav li:nth-child(2)
 .fa-map-marker-alt /*icone position*/
 {
     width: 45px;
-    padding: 17px O;
+    padding: 17px O; /* erreur? */
 }
 
 .form_ville
