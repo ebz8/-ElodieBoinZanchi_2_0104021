@@ -24,6 +24,7 @@
     max-width: 880px;
 }
 
+
 /* Hebergements à Marseille: */
 /* _______Populaires________ */
 #populaires
@@ -69,9 +70,30 @@
     max-width: 880px;
 }
 
-.colonne, .colonnedouble
+.activites_conteneur figure
 {
-    width: 33.33%;
+    width: 250px;
+}
+
+.vieuxport img, .fortdepomegues img, .ilesdufrioul img,
+.parcnationaldescalanques img, .notredamedelagarde img,
+.parclongchamp img
+{
+    height: 300px;
+}
+
+/* Types de colonnes */
+
+.colonne
+{
+    max-width: 30%;
+    padding-bottom: 40px;
+}
+.colonnedouble
+{
+    width: 68%;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 }
