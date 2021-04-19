@@ -466,8 +466,8 @@ form
 #populaires figcaption
 {
     display: flex;
-    justify-content: space-between;
     flex-flow: column wrap;
+    justify-content: space-between;
     padding: 10px 20px;
 }
 
@@ -480,12 +480,7 @@ form
     margin-top: 50px;
 }
 
-#ACTIVITES figure:hover
-{
-    filter: brightness(80%);
-}
-
-.activites_conteneur /* bloc des fiches */
+.activites_conteneur /* conteneur colonnes */
 {
     display: flex;
     flex-flow: row wrap;
@@ -493,13 +488,27 @@ form
     margin-top: 30px;
 }
 
+/* Type(s) de colonnes */
+.colonnedouble
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+/* Cartes */
 .activites_conteneur figure
 {
+    width: 300px;
     margin: 0;
     padding: 0;
     border-radius: 20px;
-    width: 300px;
     box-shadow: 1px 10px 10px #F2F2F2;
+}
+
+#ACTIVITES figure:hover
+{
+    filter: brightness(80%);
 }
 
 .activites_conteneur img
@@ -521,15 +530,8 @@ form
     padding-left: 15px;
 }
 
-/* Type(s) de colonnes */
-.colonnedouble
-{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-}
-
 /* Dimension des images */
+
 .vieuxport img, .parcnationaldescalanques img
 {
     height: 390px;
@@ -560,7 +562,6 @@ form
 /* _________________________ */
 /*_______Pieds de page_______*/
 /* _________________________ */
-
 footer
 {
     display: grid;
@@ -575,12 +576,10 @@ footer a
     color: black;
 }
 
-
 footer ul
 {
     list-style-type: none;
     padding: 0;
-
 }
 
 
