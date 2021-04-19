@@ -274,11 +274,6 @@ form
     margin: 25px 5px;
 }
 
-/* #FILTRE h4
-{
-    margin-bottom: 10px;
-} */
-
 #filtre_bouton_conteneur
 {
     display: flex;
@@ -397,7 +392,7 @@ form
     width: 246px;
     height: 199px;
     line-height: 20%; /*changer*/
-    margin: 20px 0px 15px 0;
+    margin: 20px 0 15px 0;
     background-color: white;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
     border: solid white 4px;
