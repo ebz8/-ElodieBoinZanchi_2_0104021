@@ -1,17 +1,15 @@
 /*________________________________________________*/
- /*_______________________________________________*/
+/*________________________________________________*/
 /*______________ -BREAKPOINT N.1- ________________*/
 /*________________ -ÉCRAN LARGE - ________________*/
 /*________________________________________________*/
 /*________________________________________________*/
-
 @media screen and (max-width: 1400px) and (min-width: 977px)
 {
 
 /* _________________________ */
 /* _________En-tête_________ */
 /* _________________________ */
-
 header
 {
     max-width: 900px;
@@ -32,8 +30,6 @@ header
     max-width: 880px;
 }
 
-/* _________________________ */
-/* Hébergements____Résultats */
 /* _______Populaires________ */
 #populaires
 {
@@ -80,7 +76,6 @@ header
 }
 
 /* Types de colonnes */
-
 .colonne
 {
     width: 30%;
@@ -96,7 +91,6 @@ header
 .activites_conteneur figure
 {
     max-width: 265px;
-    /* margin: 0 20px; */
 }
 
 .colonnedouble figure
@@ -114,18 +108,16 @@ header
 
 }
 
-
-
 /*________________________________________________*/
- /*_______________________________________________*/
+/*________________________________________________*/
 /*______________ -BREAKPOINT N.2- ________________*/
 /*_______________ -ÉCRAN MEDIUM- _________________*/
 /*________________________________________________*/
 /*________________________________________________*/
-
 @media screen and (max-width: 976px) and (min-width: 719px)
 {
 
+/* _________________________ */
 /* Hebergements à Marseille: */
 /* _______Populaires________ */
 #populaires
@@ -158,9 +150,7 @@ header
     padding: 10px;
 }
 
-/* _________________________ */
-/* Hébergements____Résultats */
-/* _________Aperçu__________ */
+/* ____Aperçu résultats_____ */
 #heb_apercu
 {
     background-color: white;
@@ -183,22 +173,18 @@ header
 /* __Activités à Marseille__ */
 /* _________________________ */
 
-.activites_conteneur /* conteneur colonnes */
+.activites_conteneur
 {
     justify-content: center;
 }
 
-/* Type(s) de colonnes */
 .colonne, .colonnedouble
 {
     margin: 10px;
 }
 
 
-
-
 }
-
 
 /*________________________________________________*/
 /*________________________________________________*/
@@ -206,7 +192,6 @@ header
 /*___________________ -MOBILE- ___________________*/
 /*________________________________________________*/
 /*________________________________________________*/
-
 @media screen and (max-width: 718px)
 {
 
@@ -287,7 +272,7 @@ nav li:nth-child(2)
 }
 
 /* _______S'inscrire________ */
-.inscription /* S'inscrire */
+.inscription
 {
     position: absolute;
     top: 0;
@@ -303,10 +288,7 @@ nav li:nth-child(2)
     margin: 0 20px;
 }
 
-/* _________________________ */
 /* _Formulaire_de_recherche_ */
-/* _________________________ */
-
 #FORMULAIRE
 {
     margin: 10px auto;
@@ -337,7 +319,6 @@ nav li:nth-child(2)
 /* _________________________
 /* ______Barre Filtres______ */
 /* _________________________ */
- 
 #FILTRE
 {
     margin: 25px 0;
@@ -347,7 +328,6 @@ nav li:nth-child(2)
 {
     margin: 15px 10px 0px 0;
     padding: 0;
-
 } 
 
 /* _________________________ */
@@ -359,7 +339,6 @@ nav li:nth-child(2)
     flex-wrap: wrap-reverse;
 }
 
-/* Hébergements____Résultats */
 /* _________Aperçu__________ */
 
 #heb_apercu
@@ -388,7 +367,6 @@ nav li:nth-child(2)
     line-height: 1.5rem; /*changer*/
 }
 
-/* Hebergements à Marseille: */
 /* _______Populaires________ */
 #populaires
 {
@@ -435,7 +413,6 @@ nav li:nth-child(2)
     flex-flow: column wrap;
 }
 
-
 .activites_conteneur figure
 {
     width: 100%;
@@ -450,7 +427,9 @@ nav li:nth-child(2)
     height: 134px;
 }
 
-/* Pieds de page */
+/* _________________________ */
+/*_______Pieds de page_______*/
+/* _________________________ */
 footer
 {
     grid-template-columns: 100%;
@@ -459,19 +438,18 @@ footer
 
 }
 
-
 /*________________________________________________*/
 /*________________________________________________*/
 /*___________________ -MOBILE- ___________________*/
-/*__________________ -SMALL- __________________*/
+/*____________________ -SMALL- ___________________*/
 /*________________________________________________*/
 /*________________________________________________*/
-
 @media screen and (max-width: 330px)
 {
 #populaires figcaption
 {
     padding: 10px;
 }
+
 
 }
