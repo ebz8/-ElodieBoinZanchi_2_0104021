@@ -9,9 +9,17 @@
 {
 
 /* _________________________ */
-/* Hébergements____Résultats */
+/* _________En-tête_________ */
 /* _________________________ */
 
+header
+{
+    max-width: 900px;
+}
+
+/* _________________________ */
+/* Hébergements____Résultats */
+/* _________Aperçu__________ */
 #heb_apercu
 {
     background-color: white;
@@ -24,8 +32,8 @@
     max-width: 880px;
 }
 
-
-/* Hebergements à Marseille: */
+/* _________________________ */
+/* Hébergements____Résultats */
 /* _______Populaires________ */
 #populaires
 {
