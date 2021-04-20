@@ -130,13 +130,14 @@
 {
     width: 100%;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     flex-shrink: 1;
 }
 
 #populaires figure
 {
     max-width: 246px;
+    margin: 10px;
 }
 #populaires img
 {
@@ -161,24 +162,28 @@
 #apercu_fiche_conteneur /* bloc des fiches */
 {
     width: 100%;
+    justify-content: center;
 }
 
 #heb_apercu figure
 {
-    width: 100%;
     min-width: 300px;
+    margin: 20px 10px;
 }
 
 /* _________________________ */
 /* __Activités à Marseille__ */
 /* _________________________ */
 
+.activites_conteneur /* conteneur colonnes */
+{
+    justify-content: center;
+}
+
 /* Type(s) de colonnes */
 .colonne, .colonnedouble
 {
-    width: 50%;
-    padding-bottom: 40px;
-    align-items: center;
+    margin: 10px;
 }
 
 
