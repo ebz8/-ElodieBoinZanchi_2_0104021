@@ -4,8 +4,9 @@
 /*________________ -ÉCRAN LARGE - ________________*/
 /*________________________________________________*/
 /*________________________________________________*/
-@media screen and (max-width: 1340px) and (min-width: 977px)
+@media screen and (max-width: 1120px) and (min-width: 977px)
 {
+
 
 /* _________________________ */
 /* __Activités à Marseille__ */
@@ -63,7 +64,13 @@
 {
 
 /* _________________________ */
-/* Hebergements à Marseille: */
+/* Hébergements____Résultats */
+/* _________________________ */
+#HEBERGEMENTS
+{
+    flex-wrap: wrap-reverse;
+}
+
 /* _______Populaires________ */
 #populaires
 {

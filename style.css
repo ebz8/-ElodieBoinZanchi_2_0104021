@@ -368,7 +368,6 @@ form
 
 /* Hébergements____Résultats */
 /* _________Aperçu__________ */
-
 #heb_apercu
 {
     padding: 2rem;
@@ -381,14 +380,13 @@ form
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 #heb_apercu figure
 {
     width: 246px;
-    height: 199px;
-    margin: 1rem 0 0 0;
-    line-height: 20%; /*changer*/
+    margin: 2rem auto 0;
     background-color: white;
     border-radius: 1rem;
     border: solid white 4px;
@@ -430,7 +428,7 @@ form
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0 3rem;
 }
 
 .fa-chart-line
