@@ -4,107 +4,11 @@
 /*________________ -ÉCRAN LARGE - ________________*/
 /*________________________________________________*/
 /*________________________________________________*/
-@media screen and (max-width: 1400px) and (min-width: 977px)
+@media screen and (max-width: 1024px) and (min-width: 977px)
 {
 
-/* _________________________ */
-/* _________En-tête_________ */
-/* _________________________ */
-header
-{
-    max-width: 900px;
-}
 
-/* _________________________ */
-/* Hébergements____Résultats */
-/* _________Aperçu__________ */
-#heb_apercu
-{
-    background-color: white;
-    padding: 38px 0 0 0;
-}
-
-#apercu_fiche_conteneur /* bloc des fiches */
-{
-    width: 100%;
-    max-width: 880px;
-}
-
-/* _______Populaires________ */
-#populaires
-{
-    width: 100%;
-    max-width: 800px;
-}
-
-.pop_fiche_conteneur /* bloc des fiches */
-{
-    width: 100%;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    flex-shrink: 1;
-}
-
-#populaires figure
-{
-    max-width: 246px;
-}
-#populaires img
-{
-    width: 100%;
-    max-width: 90px;
-}
-
-#populaires figcaption
-{
-    padding: 10px;
-}
-
-/* _________________________ */
-/* __Activités à Marseille__ */
-/* _________________________ */
-#ACTIVITES
-{
-    margin-top: 20px;
-}
-
-.activites_conteneur /* conteneur colonnes */
-{
-    max-width: 880px;
-    justify-content: flex-start;
-}
-
-/* Types de colonnes */
-.colonne
-{
-    width: 30%;
-}
-.colonnedouble
-{
-    width: 70%;
-    flex-flow: row wrap;
-    padding-bottom: 40px;
-}
-
-/* Cartes */
-.activites_conteneur figure
-{
-    max-width: 265px;
-}
-
-.colonnedouble figure
-{
-    margin-left: 40px;
-}
-
-.vieuxport img, .fortdepomegues img, .ilesdufrioul img,
-.parcnationaldescalanques img, .notredamedelagarde img,
-.parclongchamp img
-{
-    height: 280px;
-}
-
-
+    
 }
 
 /*________________________________________________*/

@@ -340,7 +340,6 @@ form
 {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap-reverse;
 }
 
 #HEBERGEMENTS figure:hover
@@ -371,14 +370,13 @@ form
 
 #heb_apercu
 {
-    padding: 40px;
+    padding: 2rem;
     background-color: #F2F2F2;
-    border-radius: 20px;
+    border-radius: 1rem;
 }
 
 #apercu_fiche_conteneur /* bloc des fiches */
 {
-    width: 800px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -388,10 +386,10 @@ form
 {
     width: 246px;
     height: 199px;
-    margin: 20px 0 15px 0;
+    margin: 1rem 0 0 0;
     line-height: 20%; /*changer*/
     background-color: white;
-    border-radius: 20px;
+    border-radius: 1rem;
     border: solid white 4px;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
 }
@@ -400,7 +398,7 @@ form
 {
     width: 100%;
     height: 112px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 1rem 1rem 0 0;
 }
 
 #heb_apercu figcaption
@@ -412,17 +410,17 @@ form
 /* _______Populaires________ */
 #populaires
 {
+    max-width: 400px;
     background-color: #F2F2F2;
-    border-radius: 20px;
-    padding: 38px;
+    border-radius: 1rem;
+    padding: 2rem 0;
+    margin-left: 3rem;
 }
 
 .pop_fiche_conteneur /* bloc des fiches */
 {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
+    flex-flow: row wrap;
 }
 
 .pop_titre
@@ -430,6 +428,7 @@ form
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 2rem;
 }
 
 .fa-chart-line
@@ -440,29 +439,26 @@ form
 #populaires figure
 {
     display: flex;
-    height: 134px;
-    max-width: 338px;
-    margin: 15px 0; /*verifier*/
-    line-height: 0.9em;
+    height: 145px;
     background-color: white;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
     border: solid black 1px;
     border: solid white 4px;
-    border-radius: 20px;
+    border-radius: 1rem;
 }
 
 #populaires img
 {
     height: auto;
     width: 133px;
-    border-radius: 20px 0 0 20px;
+    border-radius: 1rem 0 0 1rem;
 }
 
 #populaires figcaption
 {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
+    flex-flow: column nowrap;
+    justify-content: space-around;
     padding: 10px 20px;
 }
 
