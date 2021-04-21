@@ -187,7 +187,7 @@ nav a:hover
 /* _______S'inscrire________ */
 .inscription
 {
-    padding-top: 42px;
+    padding-top: 42px; /* changer */
     padding-left: 1rem;
     padding-right: 2rem;
 }
@@ -386,7 +386,7 @@ form
 #heb_apercu figure
 {
     width: 246px;
-    margin: 2rem auto 0;
+    margin: 1rem auto 0;
     background-color: white;
     border-radius: 1rem;
     border: solid white 4px;

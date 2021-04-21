@@ -175,6 +175,7 @@ nav li:nth-child(2)
     position: absolute;
     top: 0;
     right: 5%;
+    padding-right: 0;
 }
 
 /* _________________________ */
@@ -261,7 +262,7 @@ nav li:nth-child(2)
 {
     width: 100%;
     max-width: 335px;
-    margin: 10px auto;
+    margin: 1rem auto;
     line-height: 1.5rem; /*changer*/
 }
 
