@@ -476,7 +476,6 @@ form
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin-top: 30px;
 }
 
 /* Type(s) de colonnes */
@@ -485,13 +484,14 @@ form
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
+    flex-grow: 2;
 }
 
 /* Cartes */
 .activites_conteneur figure
 {
-    width: 300px;
-    margin: 0;
+    max-width: 300px;
+    margin: 2rem auto 0;
     padding: 0;
     border-radius: 20px;
     box-shadow: 1px 10px 10px #F2F2F2;
