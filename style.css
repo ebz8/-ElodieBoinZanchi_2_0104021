@@ -491,9 +491,9 @@ form
 .activites_conteneur figure
 {
     max-width: 300px;
-    margin: 2rem auto 0;
+    margin: 1rem auto 0;
     padding: 0;
-    border-radius: 20px;
+    border-radius: 1rem;
     box-shadow: 1px 10px 10px #F2F2F2;
 }
 
@@ -505,20 +505,19 @@ form
 .activites_conteneur img
 {
     width: 100%;
-    border-radius: 20px 20px 0 0;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .activites_conteneur figcaption
 {
     display: flex;
     align-items: center;
-    padding: 2px;
     height: 55px;
 }
 
 .activites_conteneur figcaption h4
 {
-    padding-left: 15px;
+    padding-left: 1rem;
 }
 
 /* Dimension des images */
