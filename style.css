@@ -180,6 +180,8 @@ nav a:hover
    color: #0065FC;
    text-decoration: none;
    font-weight: bold;
+   border-top: solid #0065FC 2px;
+   padding-top: 40px;
 }
 
 /* _______S'inscrire________ */
