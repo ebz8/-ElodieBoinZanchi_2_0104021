@@ -188,7 +188,8 @@ nav a:hover
 .inscription
 {
     padding-top: 42px;
-    padding-left: 20px;
+    padding-left: 1rem;
+    padding-right: 2rem;
 }
 
 .inscription a

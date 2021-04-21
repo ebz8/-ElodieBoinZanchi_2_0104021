@@ -7,8 +7,50 @@
 @media screen and (max-width: 1024px) and (min-width: 977px)
 {
 
+/* _________________________ */
+/* __Activités à Marseille__ */
+/* _________________________ */
+#ACTIVITES
+{
+    margin-top: 20px;
+}
 
-    
+.activites_conteneur /* conteneur colonnes */
+{
+    max-width: 880px;
+    justify-content: flex-start;
+}
+
+/* Types de colonnes */
+.colonne
+{
+    width: 30%;
+}
+.colonnedouble
+{
+    width: 70%;
+    flex-flow: row wrap;
+    padding-bottom: 40px;
+}
+
+/* Cartes */
+.activites_conteneur figure
+{
+    max-width: 265px;
+}
+
+.colonnedouble figure
+{
+    margin-left: 40px;
+}
+
+.vieuxport img, .fortdepomegues img, .ilesdufrioul img,
+.parcnationaldescalanques img, .notredamedelagarde img,
+.parclongchamp img
+{
+    height: 280px;
+}
+
 }
 
 /*________________________________________________*/
