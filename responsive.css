@@ -4,10 +4,31 @@
 /*_______________ -EXTRA LARGE- __________________*/
 /*________________________________________________*/
 /*________________________________________________*/
-@media screen and (max-width: 1200px)
+
+@media screen and (max-width: 1050px)
+{
+    #heb_apercu a
+{
+    flex: 0 1 calc(80% - 2.5rem / 2);
+    margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 1270px)
 {
 
+#heb_apercu a
+{
+    flex: 0 1 calc(50% - 2.5rem / 2);
+}
 
+}
+
+
+
+
+@media screen and (max-width: 1200px)
+{
 /* _________________________ */
 /* __Activités à Marseille__ */
 /* _________________________ */
@@ -359,12 +380,11 @@ footer
 /*____________________ -SMALL- ___________________*/
 /*________________________________________________*/
 /*________________________________________________*/
-@media screen and (max-width: 330px)
+/* @media screen and (max-width: 330px)
 {
 #populaires figcaption
 {
     padding: 10px;
 }
+} */
 
-
-}

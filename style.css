@@ -383,9 +383,15 @@ form
     align-items: center;
 }
 
+#heb_apercu a
+{
+    flex: 0 1 calc(33.33% - 2.5rem / 2);
+}
+
 #heb_apercu figure
 {
-    width: 246px;
+    width: 100%;
+    min-width: 200px;
     margin: 1rem auto 0;
     background-color: white;
     border-radius: 1rem;
@@ -559,7 +565,7 @@ footer
     grid-template-columns: 33.33% 33.33% 33.33%;
     line-height: 35px;
     background-color: #f2f2f2;
-    padding: 10px 50px;
+    padding: 2rem 3rem;
 }
 
 footer a
