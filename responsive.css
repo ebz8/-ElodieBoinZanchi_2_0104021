@@ -91,6 +91,7 @@
     max-width: 246px;
     margin: 10px;
 }
+
 #populaires img
 {
     width: 100%;
@@ -117,6 +118,12 @@
   max-width: 60%;
   margin: 0.5rem auto;
   
+}
+
+#populaires img
+{
+    width: 100%;
+    max-width: 133px;
 }
 
 }
