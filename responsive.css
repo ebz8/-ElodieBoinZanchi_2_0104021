@@ -7,6 +7,11 @@
 @media screen and (max-width: 1200px)
 {
 
+
+/* _________________________ */
+/* __Activités à Marseille__ */
+/* _________________________ */
+
 /* Type(s) de colonnes */
 .colonne
 {
@@ -27,7 +32,7 @@
 /*_______________ -ÉCRAN MEDIUM- _________________*/
 /*________________________________________________*/
 /*________________________________________________*/
-@media screen and (max-width: 976px) and (min-width: 719px)
+@media screen and (max-width: 976px)
 {
 
 /* _________________________ */
@@ -327,8 +332,6 @@ nav li:nth-child(2)
 
 .activites_conteneur figure
 {
-    width: 100%;
-    max-width: 335px;
     margin: 10px auto;
 }
 
