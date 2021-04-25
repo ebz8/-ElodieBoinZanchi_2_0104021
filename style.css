@@ -148,6 +148,8 @@ nav ul
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    margin-inline-start: 0px;
+
 }
 
 nav li
@@ -187,7 +189,7 @@ nav a:hover
 /* _______S'inscrire________ */
 .inscription
 {
-    padding-top: 50px; /* changer */
+    padding-top: 2.1rem; /* changer */
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -415,11 +417,11 @@ form
 /* _______Populaires________ */
 #populaires
 {
-    max-width: 400px;
+    min-width: 418px;
     height: max-content;
     background-color: #F2F2F2;
     border-radius: 1rem;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     margin-left: 3rem;
 }
 
