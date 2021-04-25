@@ -69,22 +69,23 @@
 /* _______Populaires________ */
 #populaires
 {
-    width: 100%;
+    min-width: 0;
     max-width: 100%;
+    width: 100%;
     margin: auto;
 }
 
 .pop_fiche_conteneur /* bloc des fiches */
 {
-    width: 100%;
     flex-flow: row wrap;
     justify-content: center;
+    padding: 0 2rem;
 }
 
 #populaires figure
 {
-    max-width: 300px;
-    margin: 0.7rem;
+    max-width: 250px;
+    margin: 0.5rem;
 }
 
 #populaires img
@@ -95,8 +96,6 @@
 #populaires figcaption
 {
     padding: 10px;
-}
-
 }
 
 }
@@ -270,7 +269,7 @@ nav a:hover
     background-color: white;
     border-radius: 0;
     padding: 0;
-    margin: 1rem;
+    margin: 2rem 1rem;
 }
 
 #apercu_fiche_conteneur /* bloc des fiches */
@@ -286,10 +285,9 @@ nav a:hover
 /* _______Populaires________ */
 #populaires
 {
+    width: 100%;
     border-radius: 0;
     padding: 1.5rem;
-    max-width: none;
-    min-width: none;
 }
 
 .pop_titre
@@ -297,24 +295,30 @@ nav a:hover
     padding: 0;
 }
 
+.pop_fiche_conteneur /* bloc des fiches */
+{
+    flex-flow: column wrap;
+    padding: 1rem 0 0 0;
+}
+
 #populaires figure
 {
-    width: 100%;
     height: 144px;
+    max-width: 100%;
     margin: 0.5rem auto;
 }
 
 #populaires img
 {
-    width: 100%;
     max-width: 133px;
-    min-width: 100px;
+    min-width: 133px;
 }
 
 #populaires figcaption
 {
     padding: 1rem;
 }
+
 
 /* _________________________ */
 /* __Activités à Marseille__ */

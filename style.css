@@ -420,12 +420,6 @@ form
     margin-left: 3rem;
 }
 
-.pop_fiche_conteneur /* bloc des fiches */
-{
-    display: flex;
-    flex-flow: row wrap;
-}
-
 .pop_titre
 {
     display: flex;
@@ -437,6 +431,12 @@ form
 .fa-chart-line
 {
     font-size: 1.2em;
+}
+
+.pop_fiche_conteneur /* bloc des fiches */
+{
+    display: flex;
+    flex-flow: row wrap;
 }
 
 #populaires figure
