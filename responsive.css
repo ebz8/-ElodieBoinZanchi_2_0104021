@@ -39,11 +39,6 @@
 }
 
 
-
-
-
-
-
 /*________________________________________________*/
 /*________________________________________________*/
 /*______________ -BREAKPOINT N.1- ________________*/
@@ -76,7 +71,6 @@
 {
     width: 100%;
     max-width: 900px;
-    min-width: 0;
     margin: auto;
 }
 
@@ -85,13 +79,12 @@
     width: 100%;
     flex-flow: row wrap;
     justify-content: center;
-    flex-shrink: 1;
 }
 
 #populaires figure
 {
-    max-width: 246px;
-    margin: 10px;
+    max-width: 300px;
+    margin: 0.7rem;
 }
 
 #populaires img
@@ -107,13 +100,17 @@
 
 }
 
-@media screen and (max-width: 917px)
+@media screen and (max-width: 930px)
 {
 
 #populaires img
 {
     width: 100%;
-    max-width: 133px;
+}
+
+.pop_fiche_conteneur /* bloc des fiches */
+{
+    justify-content: center;
 }
 
 }
@@ -305,6 +302,8 @@ nav a:hover
 {
     border-radius: 0;
     padding: 1.5rem;
+    max-width: none;
+    min-width: none;
 }
 
 .pop_titre
@@ -314,8 +313,7 @@ nav a:hover
 
 #populaires figure
 {
-    max-width: 100%;
-    min-width: none;
+    width: 100%;
     height: 144px;
     margin: 0.5rem auto;
 }
