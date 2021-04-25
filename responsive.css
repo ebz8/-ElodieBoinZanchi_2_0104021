@@ -70,7 +70,7 @@
 #populaires
 {
     width: 100%;
-    max-width: 900px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -89,8 +89,7 @@
 
 #populaires img
 {
-    width: 100%;
-    max-width: 90px;
+    max-width: 100px;
 }
 
 #populaires figcaption
@@ -98,19 +97,6 @@
     padding: 10px;
 }
 
-}
-
-@media screen and (max-width: 930px)
-{
-
-#populaires img
-{
-    width: 100%;
-}
-
-.pop_fiche_conteneur /* bloc des fiches */
-{
-    justify-content: center;
 }
 
 }
