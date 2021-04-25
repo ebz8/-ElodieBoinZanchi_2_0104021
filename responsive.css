@@ -34,14 +34,16 @@
 @media screen and (max-width: 1050px)
 {
 
- /* Hébergements____Résultats */
-#heb_apercu a
+
+#populaires
 {
-    flex: 0 1 calc(80% - 2.5rem / 2);
-    margin: 0 auto;
+    min-width: 380px;
+    margin-left: 2rem;
 }
 
 }
+
+
 
 /*________________________________________________*/
 /*________________________________________________*/
