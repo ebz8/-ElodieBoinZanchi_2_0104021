@@ -205,14 +205,23 @@ nav ul
 nav li
 {
     width: 100%;
-    border-top: none;
     padding: 0 0px 20px 0px;
     border-bottom: solid #0065FC 3px;
+}
+
+nav li:nth-child(1) a
+{
+    border-top: none;
 }
 
 nav li:nth-child(2)
 {
     border-bottom: solid #F2F2F2 3px;
+}
+
+nav a:hover
+{
+   border-top: none;
 }
 
 /* _______S'inscrire________ */
