@@ -75,6 +75,7 @@
 {
     width: 100%;
     max-width: 900px;
+    min-width: 0;
     margin: auto;
 }
 
@@ -216,7 +217,7 @@ nav li:nth-child(2)
 .inscription
 {
     position: absolute;
-    top: 0;
+    top: 1.2rem;
     right: 5%;
     padding-right: 0;
 }
