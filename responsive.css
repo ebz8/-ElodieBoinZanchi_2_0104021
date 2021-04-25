@@ -31,7 +31,8 @@
 
 #populaires
 {
-    min-width: 380px;
+    min-width: 388px;
+    max-width: 388px;
     margin-left: 2rem;
 }
 

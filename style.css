@@ -411,6 +411,7 @@ form
 /* _______Populaires________ */
 #populaires
 {
+    max-width: 418px;
     min-width: 418px;
     height: max-content;
     background-color: #F2F2F2;
